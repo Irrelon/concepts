@@ -1,0 +1,5051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+	<asx:values>
+		<META>
+			<RSBOHFIELDS>
+				<OHDEST>S_TESTDTR</OHDEST>
+				<OBJVERS>A</OBJVERS>
+				<FIELDNM>LANGU</FIELDNM>
+				<POSIT>0001</POSIT>
+				<TEMPIOBJNM>0LANGU</TEMPIOBJNM>
+				<KEYFLAG>X</KEYFLAG>
+				<DATATYPE>LANG</DATATYPE>
+				<INTLEN>000002</INTLEN>
+				<LENG>000001</LENG>
+				<OUTPUTLEN>000002</OUTPUTLEN>
+				<INTTYPE>C</INTTYPE>
+				<CONVEXIT>ISOLA</CONVEXIT>
+				<DECIMALS>000000</DECIMALS>
+				<OUTFORMAT />
+				<EXT_DTYPE />
+				<EXT_LENGHT>000000</EXT_LENGHT>
+				<UNIFIELDNM />
+				<DTELNM>LANGU</DTELNM>
+			</RSBOHFIELDS>
+			<RSBOHFIELDS>
+				<OHDEST>S_TESTDTR</OHDEST>
+				<OBJVERS>A</OBJVERS>
+				<FIELDNM>CURRENCY</FIELDNM>
+				<POSIT>0002</POSIT>
+				<TEMPIOBJNM>0CURRENCY</TEMPIOBJNM>
+				<KEYFLAG>X</KEYFLAG>
+				<DATATYPE>CUKY</DATATYPE>
+				<INTLEN>000010</INTLEN>
+				<LENG>000005</LENG>
+				<OUTPUTLEN>000005</OUTPUTLEN>
+				<INTTYPE>C</INTTYPE>
+				<CONVEXIT />
+				<DECIMALS>000000</DECIMALS>
+				<OUTFORMAT />
+				<EXT_DTYPE />
+				<EXT_LENGHT>000000</EXT_LENGHT>
+				<UNIFIELDNM />
+				<DTELNM>/BI0/OICURRENCY</DTELNM>
+			</RSBOHFIELDS>
+			<RSBOHFIELDS>
+				<OHDEST>S_TESTDTR</OHDEST>
+				<OBJVERS>A</OBJVERS>
+				<FIELDNM>RECORDMODE</FIELDNM>
+				<POSIT>0003</POSIT>
+				<TEMPIOBJNM>0RECORDMODE</TEMPIOBJNM>
+				<KEYFLAG />
+				<DATATYPE>CHAR</DATATYPE>
+				<INTLEN>000002</INTLEN>
+				<LENG>000001</LENG>
+				<OUTPUTLEN>000001</OUTPUTLEN>
+				<INTTYPE>C</INTTYPE>
+				<CONVEXIT />
+				<DECIMALS>000000</DECIMALS>
+				<OUTFORMAT />
+				<EXT_DTYPE />
+				<EXT_LENGHT>000000</EXT_LENGHT>
+				<UNIFIELDNM />
+				<DTELNM>RODMUPDMOD</DTELNM>
+			</RSBOHFIELDS>
+			<RSBOHFIELDS>
+				<OHDEST>S_TESTDTR</OHDEST>
+				<OBJVERS>A</OBJVERS>
+				<FIELDNM>TXTLG</FIELDNM>
+				<POSIT>0004</POSIT>
+				<TEMPIOBJNM>0TXTLG</TEMPIOBJNM>
+				<KEYFLAG />
+				<DATATYPE>CHAR</DATATYPE>
+				<INTLEN>000120</INTLEN>
+				<LENG>000060</LENG>
+				<OUTPUTLEN>000060</OUTPUTLEN>
+				<INTTYPE>C</INTTYPE>
+				<CONVEXIT />
+				<DECIMALS>000000</DECIMALS>
+				<OUTFORMAT />
+				<EXT_DTYPE />
+				<EXT_LENGHT>000000</EXT_LENGHT>
+				<UNIFIELDNM />
+				<DTELNM>RSTXTLG</DTELNM>
+			</RSBOHFIELDS>
+			<RSBOHFIELDS>
+				<OHDEST>S_TESTDTR</OHDEST>
+				<OBJVERS>A</OBJVERS>
+				<FIELDNM>TXTSH</FIELDNM>
+				<POSIT>0005</POSIT>
+				<TEMPIOBJNM>0TXTSH</TEMPIOBJNM>
+				<KEYFLAG />
+				<DATATYPE>CHAR</DATATYPE>
+				<INTLEN>000040</INTLEN>
+				<LENG>000020</LENG>
+				<OUTPUTLEN>000020</OUTPUTLEN>
+				<INTTYPE>C</INTTYPE>
+				<CONVEXIT />
+				<DECIMALS>000000</DECIMALS>
+				<OUTFORMAT />
+				<EXT_DTYPE />
+				<EXT_LENGHT>000000</EXT_LENGHT>
+				<UNIFIELDNM />
+				<DTELNM>RSTXTSH</DTELNM>
+			</RSBOHFIELDS>
+		</META>
+		<DATA>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>WST</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Samoan Tala</TXTLG>
+				<TXTSH>Tala</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>ZRZ</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Zaire</TXTLG>
+				<TXTSH>Zaire</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>ADP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Peseta d'Andorre</TXTLG>
+				<TXTSH>Peseta</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>AED</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Emirat arabes unis Dirham</TXTLG>
+				<TXTSH>Dirham</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>AZN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Manat azerbaïdjanais</TXTLG>
+				<TXTSH>Manat</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>BDT</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Taka du Bangladesh</TXTLG>
+				<TXTSH>Taka</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>BGL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Lew de Bulgarie</TXTLG>
+				<TXTSH>Lew</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>BHD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dinar du Bahrain</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>EUR04</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>GNF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Guinea Franc</TXTLG>
+				<TXTSH>Guinea Franc</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>KHR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Riel cambodgien</TXTLG>
+				<TXTSH>Riel</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>MAD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dirham du Maroc</TXTLG>
+				<TXTSH>Dirham</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>MGF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Franc de Madagascar</TXTLG>
+				<TXTSH>Franc Madagasc.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>MVR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Rufiyaa des Maldives</TXTLG>
+				<TXTSH>Rufiyaa</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>MXP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Peso mexicain</TXTLG>
+				<TXTSH>Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>MZM</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Metical du Mozambique</TXTLG>
+				<TXTSH>Metical</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>PKR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Roupie pakistanaise</TXTLG>
+				<TXTSH>Roupie</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>SGD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar de singapur</TXTLG>
+				<TXTSH>Dollar sing.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>SRG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Florin du Surinam</TXTLG>
+				<TXTSH>Florin/Surinam</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>TRY</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Nouvelle lire turque / dès le 1.1.2006</TXTLG>
+				<TXTSH />
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>USD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar américain</TXTLG>
+				<TXTSH>Dollar US</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>USD01</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar américain</TXTLG>
+				<TXTSH>Dollar US</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>WST</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Tala des Samoa</TXTLG>
+				<TXTSH>Tala</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>YTL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Lire turque</TXTLG>
+				<TXTSH>Lire</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>ZRZ</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Zaire</TXTLG>
+				<TXTSH>Zaire</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>ZWD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar du Zimbabwe</TXTLG>
+				<TXTSH>Dollar Zimbabwe</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>BMD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Bermuda Dollar</TXTLG>
+				<TXTSH>Berm. Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>BWP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Botswanische Pula</TXTLG>
+				<TXTSH>Pula</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>CMG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Karibischer Gulden</TXTLG>
+				<TXTSH>Karib. Gulden</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>CUP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kubanische Peso</TXTLG>
+				<TXTSH>Kuban. Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>EGP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ägyptisches Pfund</TXTLG>
+				<TXTSH>Pfund</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>EUR10</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>EU-Bild.- &amp; Jugendprog /(Zahlwähr. EUR)</TXTLG>
+				<TXTSH>EU-Bild.-&amp;Juge.</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>EUR12</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Enterpr.Agreem.12 (MS Li)/(Zahlwähr.EUR)</TXTLG>
+				<TXTSH>Ent.Agree. MS-L</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>FKP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Falkland Pfund</TXTLG>
+				<TXTSH>Falkland Pfund</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>GHS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ghanesische Cedi (neu)</TXTLG>
+				<TXTSH>Cedi</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>GYD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Guyana-Dollar</TXTLG>
+				<TXTSH>Guyana-Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>HRK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kroatische Kuna</TXTLG>
+				<TXTSH>Kuna</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>HTG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Haitianische Gourde</TXTLG>
+				<TXTSH>Gourde</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>ISK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Isländische Krone</TXTLG>
+				<TXTSH>Krone</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>LSL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Lesotische Loti</TXTLG>
+				<TXTSH>Loti</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>LYD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Libyscher Dinar</TXTLG>
+				<TXTSH>Libyscher Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>MGA</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Madagassischer Ariary</TXTLG>
+				<TXTSH>Madag.Ariary</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>MZN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Mosambikanische Metical (neu)</TXTLG>
+				<TXTSH>Metical</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>NZD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Neuseeland-Dollar</TXTLG>
+				<TXTSH>N.S.-Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>PEI</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Peruanische Inti</TXTLG>
+				<TXTSH>Inti</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>PEN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Neuer Sol (Peruanisch)</TXTLG>
+				<TXTSH>Neuer Sol</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>PTE</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Portugiesische Escudos</TXTLG>
+				<TXTSH>Escudos</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>ROL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Rumänische Lei</TXTLG>
+				<TXTSH>Lei</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>RUR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Russischer Rubel (alt)</TXTLG>
+				<TXTSH>Rubel</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>SDG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Sudanesisches Pfund (neu)</TXTLG>
+				<TXTSH>Pfund</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>SKK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Slowakische Krone</TXTLG>
+				<TXTSH>Krone</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>STD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Santomeische Dobra</TXTLG>
+				<TXTSH>Dobra</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>SVC</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>El Salvador-Colon</TXTLG>
+				<TXTSH>Colon</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>SZL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Swasiländische Lilangeni</TXTLG>
+				<TXTSH>Lilangeni</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>TJS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>tadschikische Somoni</TXTLG>
+				<TXTSH>Somoni</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>TPE</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Timor Escudo</TXTLG>
+				<TXTSH>Timor Escudo</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>TWD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Neuer Taiwan-Dollar</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>USD01</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>FAD X /(Zahlwähr. USD)</TXTLG>
+				<TXTSH>FAD X</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>USD07</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ARM-09-003 / (Zahlwähr. USD)</TXTLG>
+				<TXTSH>ARM-09-003</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>VEB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Venezolanische Bolivar</TXTLG>
+				<TXTSH>Bolivar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>VND</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Vietnamesische Dong</TXTLG>
+				<TXTSH>Dong</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>VUV</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Vanuatische Vatu</TXTLG>
+				<TXTSH>Vatu</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>ZWR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Simbabwe Dollar (neu)</TXTLG>
+				<TXTSH>Simbabwe Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>AWG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Aruban Guilder</TXTLG>
+				<TXTSH>Aruban Guilder</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>BOB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Bolivian peso</TXTLG>
+				<TXTSH>Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>CZK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Czech Krona</TXTLG>
+				<TXTSH>Krona</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>DOP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dominican Peso</TXTLG>
+				<TXTSH>Dominican Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>DZD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Algerian Dinar</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>ESP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Spanish Peseta</TXTLG>
+				<TXTSH>Peseta</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>EUR05</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>EUR07</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>EUR11</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>EUR12</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Enterpr.Agreem.12 (MS Li)/(Zahlwähr.EUR)</TXTLG>
+				<TXTSH>Ent.Agree. MS-L</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>ILS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Israeli Scheckel</TXTLG>
+				<TXTSH>Scheckel</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>KMF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Comoros Franc</TXTLG>
+				<TXTSH>Comoros Franc</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>MOP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Macao Pataca</TXTLG>
+				<TXTSH>Pataca</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>MRO</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Mauritanian Ouguiya</TXTLG>
+				<TXTSH>Ouguiya</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>SEK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Swedish Krona</TXTLG>
+				<TXTSH>Swedish Krona</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>SSP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>South Sudanese Pound</TXTLG>
+				<TXTSH>S.Sudan.Pound</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>SUR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Russian Ruble (old)</TXTLG>
+				<TXTSH>Rouble</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>TWD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>New Taiwan Dollar</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>USD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>American Dollar</TXTLG>
+				<TXTSH>US Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>USDN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>HR: US dollars with 5 decimal places</TXTLG>
+				<TXTSH>US Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>VEF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Venezuelan Bolivar</TXTLG>
+				<TXTSH>Bolivar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>XEU</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>European Currency Unit (E.C.U.)</TXTLG>
+				<TXTSH>E.C.U.</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>YTL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Turkish Lira</TXTLG>
+				<TXTSH>Lira</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>ZAR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>South African Rand</TXTLG>
+				<TXTSH>Rand</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>ZMW</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Zambian Kwacha</TXTLG>
+				<TXTSH>Kwacha</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>AFA</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Afghani</TXTLG>
+				<TXTSH>Afghani</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>AWG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Couronne d'Aruba</TXTLG>
+				<TXTSH>Couronne Aruba</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>BAD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dinar de Bosnie-Herzégovine</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>BSD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar des Bahamas</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>BZD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar de Bélize</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>EUR01</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>EUR02</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>EUR03</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>EUR07</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>EUR09</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>EUR10</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>GRD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Drachme grècque</TXTLG>
+				<TXTSH>Drachme</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>GTQ</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Quetzal du Guatemala</TXTLG>
+				<TXTSH>Quetzal</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>IEP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Irish Pound</TXTLG>
+				<TXTSH>Irish Pound</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>JOD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dinar jordanien</TXTLG>
+				<TXTSH>Dinar jordanien</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>KWD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dinar Koweiti</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>LSL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Loti du Lésotho</TXTLG>
+				<TXTSH>Loti</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>LYD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dinar libyen</TXTLG>
+				<TXTSH>Dinar libyen</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>NOK02</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Couronne norvégienne</TXTLG>
+				<TXTSH>Couronne norv.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>SDP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Livre soudanaise</TXTLG>
+				<TXTSH>Livre</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>SLL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Leone</TXTLG>
+				<TXTSH>Leone</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>SRD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Florin du Surinam</TXTLG>
+				<TXTSH>Florin/Surinam</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>TJR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Rouble du Tadjikistan</TXTLG>
+				<TXTSH>Rouble</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>TND</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dinar tunisien</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>TOP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Pa'anga des Iles Tonga</TXTLG>
+				<TXTSH>Pa'anga</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>TZS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Schilling de Tanzanie</TXTLG>
+				<TXTSH>Schilling</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>USD05</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar américain</TXTLG>
+				<TXTSH>Dollar US</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>VND</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dong vietnamien</TXTLG>
+				<TXTSH>Dong</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>YER</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Rial du Jemen</TXTLG>
+				<TXTSH>Rial du Jemen</TXTSH>
+			</item>
+			<item>
+				<LANGU>I</LANGU>
+				<CURRENCY>SSP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Sterlina sudsudanese</TXTLG>
+				<TXTSH>Sterlina suds.</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>AWG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Arubanische Gulden</TXTLG>
+				<TXTSH>Arub.Gulden</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>BAM</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Bosnisch-Herzogwinische kon. Mark</TXTLG>
+				<TXTSH>Bos-Herzog-Mark</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>BDT</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Bangladesch Taka</TXTLG>
+				<TXTSH>Taka</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>BEF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Belgische Franken</TXTLG>
+				<TXTSH>Belg.Frank</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>BRC</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Brasilianische Real</TXTLG>
+				<TXTSH>Real</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>BRL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Brasilianische Real (neu)</TXTLG>
+				<TXTSH>Real</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>BSD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Bahama Dollar</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>CSD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Serbien Dinars</TXTLG>
+				<TXTSH>Serbien Dinars</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>CYP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Zypern Pfund</TXTLG>
+				<TXTSH>Zypern Pfund</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>DJF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dschibuti Frank</TXTLG>
+				<TXTSH>Dschibuti Frank</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>DKK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dänische Kronen</TXTLG>
+				<TXTSH>Dän.Kronen</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>GBP02</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ARM-13-009 (Zahlwähr. GBP)</TXTLG>
+				<TXTSH>ARM-13-009</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>GEK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Georgisches Kupon</TXTLG>
+				<TXTSH>Kupon</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>GHC</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ghanesische Cedi (alt)</TXTLG>
+				<TXTSH>Cedi</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>GTQ</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Guatemalische Quetzal</TXTLG>
+				<TXTSH>Quetzal</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>IQD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Irakische-Dinar</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>ITL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Italienische Lire</TXTLG>
+				<TXTSH>Lire</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>KWD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kuwaitische Dinar</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>LUF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Luxembourgische Franken</TXTLG>
+				<TXTSH>Lux. Franken</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>MVR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Maledivische Rufiyaa</TXTLG>
+				<TXTSH>Rufiyaa</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>MYR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Malaysischer Ringgit</TXTLG>
+				<TXTSH>Ringgit</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>MZM</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Mosambikanische Metical (alt)</TXTLG>
+				<TXTSH>Metical</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>PGK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Papua-Neuguineische Kina</TXTLG>
+				<TXTSH>Kina</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>SEK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Schwedische Kronen</TXTLG>
+				<TXTSH>Schwed.Kronen</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>TOP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Tongaische Pa'anga</TXTLG>
+				<TXTSH>Pa'anga</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>TTD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Trinidad-u. Tobago-Dollar</TXTLG>
+				<TXTSH>T-u.T. Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>TZS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Tansania-Shilling</TXTLG>
+				<TXTSH>Shilling</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>UGX</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Uganda Schilling (neu)</TXTLG>
+				<TXTSH>Schilling</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>USD08</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>MDBs Capital Incr.2011-2020 /(Zahlw.USD)</TXTLG>
+				<TXTSH>MDBs CI 11-20</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>XCD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ostkaribischer Dollar</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>ZMK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Zambianische Kwacha</TXTLG>
+				<TXTSH>Kwacha</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>ZRZ</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Zaire</TXTLG>
+				<TXTSH>Zaire</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>AED</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>United Arab Emirates Dirham</TXTLG>
+				<TXTSH>Dirham</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>ANG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>West Indian Guilder</TXTLG>
+				<TXTSH>W.Ind.Guilder</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>AUD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Australian Dollar</TXTLG>
+				<TXTSH>Austr. Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>AZM</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Azerbaijan Manat</TXTLG>
+				<TXTSH>Manat</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>AZN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Azerbaijan Manat</TXTLG>
+				<TXTSH>Manat</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>BGL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Bulgarian Lev</TXTLG>
+				<TXTSH>Lev</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>BZD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Belize Dollar</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>EUR06</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>EUR14</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ESA 2014-2019(=TS6)/(Zahlwähr. EUR)</TXTLG>
+				<TXTSH>ESA 14-19 (TS6)</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>GHC</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ghanian Cedi</TXTLG>
+				<TXTSH>Cedi</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>GIP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Gibraltar Pound</TXTLG>
+				<TXTSH>Gibraltar Pound</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>GWP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Guinea Peso</TXTLG>
+				<TXTSH>Guinea Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>HRD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Croatian Dinar</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>IDR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Indonesian Rupiah</TXTLG>
+				<TXTSH>Rupiah</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>ISK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Iceland Krona</TXTLG>
+				<TXTSH>Krona</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>ITL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Italian Lira</TXTLG>
+				<TXTSH>Lire</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>JMD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Jamaican Dollar</TXTLG>
+				<TXTSH>Jamaican Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>KRW</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>South Korean Won</TXTLG>
+				<TXTSH>S.Korean Won</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>KWD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kuwaiti Dinar</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>LRD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Liberian Dollar</TXTLG>
+				<TXTSH>Liberian Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>LVL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Latvian Lat</TXTLG>
+				<TXTSH>Lat</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>MNT</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Mongolian Tugrik</TXTLG>
+				<TXTSH>Tugrik</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>MXN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Mexican Peso (new)</TXTLG>
+				<TXTSH>Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>NIC</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Nicaraguan Cordoba</TXTLG>
+				<TXTSH>Cordoba</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>PEI</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Peruvian Inti</TXTLG>
+				<TXTSH>Inti</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>PHP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Philippino Peso</TXTLG>
+				<TXTSH>Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>RSD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Serbian Dinar</TXTLG>
+				<TXTSH>Serbian Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>RUR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Russian Rubel</TXTLG>
+				<TXTSH>Rouble</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>SDP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Sudanese Pound</TXTLG>
+				<TXTSH>Pound</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>SLL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Leone</TXTLG>
+				<TXTSH>Leone</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>SOS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Somalian Shilling</TXTLG>
+				<TXTSH>Shilling</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>TND</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Tunisian Dinar</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>VND</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Vietnamese Dong</TXTLG>
+				<TXTSH>Dong</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>VUV</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Vanuatu Vatu</TXTLG>
+				<TXTSH>Vatu</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>AFN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Afghani</TXTLG>
+				<TXTSH>Afghani</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>BBD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar de la Barbade</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>BOB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Boliviano</TXTLG>
+				<TXTSH>Boliviano</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>DJF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Franc de Djibouti</TXTLG>
+				<TXTSH>Franc/Djibouti</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>EUR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>EUR11</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>EUR14</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ESA 2014-2019(=TS6)/(Zahlwähr. EUR)</TXTLG>
+				<TXTSH>ESA 14-19 (TS6)</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>EUR15</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ESA 2014-2019(=TS6)/(Zahlwähr. EUR)</TXTLG>
+				<TXTSH>ESA 14-19 (TS6)</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>FIM</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Mark finlandais</TXTLG>
+				<TXTSH>Mark finl.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>GBP01</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Livre Sterling</TXTLG>
+				<TXTSH>Livre</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>GIP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Livre de Gibraltar</TXTLG>
+				<TXTSH>Livre Gibr.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>GMD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dalasi du Gabon</TXTLG>
+				<TXTSH>Dalasi</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>HRD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Croatian Dinar</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>HTG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Gourde haïtienne</TXTLG>
+				<TXTSH>Gourde</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>ILS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Schekel d'Israël</TXTLG>
+				<TXTSH>Schekel</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>KIS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kirghizstan Som</TXTLG>
+				<TXTSH>Som</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>LKR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Roupie de Sri Lanka</TXTLG>
+				<TXTSH>Roupie S. Lanka</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>LVL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Lat de Lettonie</TXTLG>
+				<TXTSH>Lat</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>MUR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Roupie mauricienne</TXTLG>
+				<TXTSH>Roupie</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>PGK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kina de Papouasie-Nouv.Guinée</TXTLG>
+				<TXTSH>Kina</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>ROL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Lei de Roumanie</TXTLG>
+				<TXTSH>Lei</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>SBD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar des I. Salomon</TXTLG>
+				<TXTSH>Dollar/Salomon</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>STD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dobra de Sao Tomé</TXTLG>
+				<TXTSH>Dobra</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>SZL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Lilangeni du Swaziland</TXTLG>
+				<TXTSH>Lilangeni</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>THB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Bhat thailandais</TXTLG>
+				<TXTSH>Bhat</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>UAK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ukrainian Karbowanez</TXTLG>
+				<TXTSH>Karbowanez</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>USD02</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar américain</TXTLG>
+				<TXTSH>Dollar US</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>USD06</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar américain</TXTLG>
+				<TXTSH>Dollar US</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>XAF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Franc CFA Gabon</TXTLG>
+				<TXTSH>Franc CFA</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>XCD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar Caraïbes orient.</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>I</LANGU>
+				<CURRENCY>EUR12</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Enterpr.Agreem.12 (MS Li)/(Zahlwähr.EUR)</TXTLG>
+				<TXTSH>Ent.Agree. MS-L</TXTSH>
+			</item>
+			<item>
+				<LANGU>I</LANGU>
+				<CURRENCY>EUR13</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ESA 2013-2016 (=TS5)/(Zahlwähr. EUR)</TXTLG>
+				<TXTSH>ESA 13-16 (TS5)</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>ADP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Andorianische Peseta</TXTLG>
+				<TXTSH>Peseta</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>AFA</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Afghani (alt)</TXTLG>
+				<TXTSH>Afghani</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>BGN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Bulgarische Neue Lewa</TXTLG>
+				<TXTSH>Bulgarische n.L</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>BHD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Bahrein-Dinar</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>CZK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Tschechische Krone</TXTLG>
+				<TXTSH>Krone</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>ECS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Sucre Ecuador</TXTLG>
+				<TXTSH>Sucre</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>EUR05</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>FIX-09-001 /(Zahlwähr. EUR)</TXTLG>
+				<TXTSH>FIX-09-001</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>EUR14</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ESA 2014-2019(=TS6)/(Zahlwähr. EUR)</TXTLG>
+				<TXTSH>ESA 14-19 (TS6)</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>FJD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Fidschi-Dollar</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>FRF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Französische Franken</TXTLG>
+				<TXTSH>Franz.Frank</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>GIP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Gibralter Pfund</TXTLG>
+				<TXTSH>Gibr. Pfund</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>GMD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Gambanesische Dalasi</TXTLG>
+				<TXTSH>Dalasi</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>IEP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Irisches Pfund</TXTLG>
+				<TXTSH>Irisches Pfund</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>MWK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Malawi-Kwacha</TXTLG>
+				<TXTSH>Malawi-Kwacha</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>NPR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Nepalesische Rupie</TXTLG>
+				<TXTSH>Rupie</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>OMR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Rial Omani</TXTLG>
+				<TXTSH>Rial Omani</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>PKR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Pakistanische Rupie</TXTLG>
+				<TXTSH>Rupie</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>PLN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Polnische Zloty (neu)</TXTLG>
+				<TXTSH>Zloty</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>RUB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Russische Rubel (neu)</TXTLG>
+				<TXTSH>Rubel</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>SBD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Salomonen Dollar</TXTLG>
+				<TXTSH>Salom.Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>SHP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>St. Helena Pfund</TXTLG>
+				<TXTSH>St.Helena Pfund</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>SIT</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Slowenische Tolar</TXTLG>
+				<TXTSH>Tolar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>SRG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Surinamische Gulden (alt)</TXTLG>
+				<TXTSH>Sur. Gulden</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>THB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Thailand Bhat</TXTLG>
+				<TXTSH>Bhat</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>TMM</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Turkmenische Manat</TXTLG>
+				<TXTSH>Manat</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>UAH</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ukrainische Griwna</TXTLG>
+				<TXTSH>Griwna</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>USD02</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>IDA 14 /(Zahlwähr. USD)</TXTLG>
+				<TXTSH>IDA 14</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>USD03</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>FAD 11 /(Zahlwähr. USD)</TXTLG>
+				<TXTSH>FAD 11</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>USD04</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>IDA 15 09-17 /(Zahlwähr. USD)</TXTLG>
+				<TXTSH>IDA 15 09-17</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>USD09</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ARM-11-006 /(Zahlwähr. USD)</TXTLG>
+				<TXTSH>ARM-11-006</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>YTL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>(Neue türkische Lira/ab 1.1.05-31.12.05)</TXTLG>
+				<TXTSH>Türkische Lira</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>ZWD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Simbabwe Dollar</TXTLG>
+				<TXTSH>Simbabwe Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>ADP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Andoran peseta</TXTLG>
+				<TXTSH>Peseta</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>AFN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Afghani</TXTLG>
+				<TXTSH>Afghani</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>BBD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Barbados Dollar</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>BMD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Bermudan Dollar</TXTLG>
+				<TXTSH>Bermudan Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>EUR08</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>EUR10</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>GNF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Guinea Franc</TXTLG>
+				<TXTSH>Guinea Franc</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>GYD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Guyanese Dollar</TXTLG>
+				<TXTSH>Guyana Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>HTG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Haitian Gourde</TXTLG>
+				<TXTSH>Gourde</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>IQD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Iraqui Dinar</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>KZT</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kazakhstani Tenge</TXTLG>
+				<TXTSH>Tenge</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>LUF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Luxembourgian Franc</TXTLG>
+				<TXTSH>Luxembourg Fr.</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>MGF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Madagascan Franc</TXTLG>
+				<TXTSH>Madagascan Fr.</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>MVR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Maldive Rufiyaa</TXTLG>
+				<TXTSH>Rufiyaa</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>NGN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Nigerian Naira</TXTLG>
+				<TXTSH>Naira</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>NOK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Norwegian Krone</TXTLG>
+				<TXTSH>Norwegian Krone</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>NOK02</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Norwegian Krone</TXTLG>
+				<TXTSH>Norwegian Krone</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>NPR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Nepalese Rupee</TXTLG>
+				<TXTSH>Rupee</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>OMR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Omani Rial</TXTLG>
+				<TXTSH>Omani Rial</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>PGK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Papua New Guinea Kina</TXTLG>
+				<TXTSH>Kina</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>SRG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Surinam Guilder</TXTLG>
+				<TXTSH>Surinam Guilder</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>TRL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Turkish Lira</TXTLG>
+				<TXTSH>Lira</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>USD03</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>American Dollar</TXTLG>
+				<TXTSH>US Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>XOF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>West African CFA franc</TXTLG>
+				<TXTSH>Franc</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>AOA</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Angolan Kwanza</TXTLG>
+				<TXTSH>Kwanza</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>CHF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Franc suisse</TXTLG>
+				<TXTSH>Franc suisse</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>COP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Peso colombien</TXTLG>
+				<TXTSH>Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>CVE</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Escudo du Cap-Vert</TXTLG>
+				<TXTSH>Escudo</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>ETB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Birr d'Ethiopie</TXTLG>
+				<TXTSH>Birr</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>FRF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Franc français</TXTLG>
+				<TXTSH>Franc franc.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>GBP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Livre Sterling</TXTLG>
+				<TXTSH>Livre</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>GBP02</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Livre Sterling</TXTLG>
+				<TXTSH>Livre</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>GWP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Peso de Guinée</TXTLG>
+				<TXTSH>Peso de Guinée</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>IDR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Roupie indonésienne</TXTLG>
+				<TXTSH>Roupie</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>IQD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dinar irakien</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>ISK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Couronne islandaise</TXTLG>
+				<TXTSH>Couronne</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>KES</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Schilling du Kenya</TXTLG>
+				<TXTSH>Schilling</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>KMF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Franc comorien</TXTLG>
+				<TXTSH>Franc comorien</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>KPW</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Won Nord-Coréen</TXTLG>
+				<TXTSH>Won N.C.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>LTL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Lita de Lituanie</TXTLG>
+				<TXTSH>Lita</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>MWK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kwacha du Malawi</TXTLG>
+				<TXTSH>Kwacha/Malawi</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>PAB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Balboa de Panama</TXTLG>
+				<TXTSH>Balboa</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>RMB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>RenMinBi chinois</TXTLG>
+				<TXTSH>RMB Yuan</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>SAR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Riyal saoudien</TXTLG>
+				<TXTSH>Riyal</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>SDG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Livre soudanaise</TXTLG>
+				<TXTSH>Livre</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>SIT</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Tolar de Slovénie</TXTLG>
+				<TXTSH>Tolar</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>SKK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Couronne de Slovaquie</TXTLG>
+				<TXTSH>Couronne</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>SUR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Rouble russe</TXTLG>
+				<TXTSH>Rouble</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>USD04</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar américain</TXTLG>
+				<TXTSH>Dollar US</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>USD08</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar américain</TXTLG>
+				<TXTSH>Dollar US</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>USD09</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar américain</TXTLG>
+				<TXTSH>Dollar US</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>UYP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Uruguayan New Peso</TXTLG>
+				<TXTSH>New Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>VEB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Bolivar du Venezuela</TXTLG>
+				<TXTSH>Bolivar</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>XEU</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Unité de devise Européenne (E.C.U.)</TXTLG>
+				<TXTSH>E.C.U.</TXTSH>
+			</item>
+			<item>
+				<LANGU>I</LANGU>
+				<CURRENCY>TRL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Lira turca / fuori corso dal 5.1.2005</TXTLG>
+				<TXTSH>Lira</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>ALL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Albanische Lek</TXTLG>
+				<TXTSH>Lek</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>AMD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Armenische Dram</TXTLG>
+				<TXTSH>Dram</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>AOA</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Angolesische Kwanza (neu)</TXTLG>
+				<TXTSH>Kwanza</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>ARA</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Argentinische Austral</TXTLG>
+				<TXTSH>Austral</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>AZN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Aserbaidschanische Manat (neu)</TXTLG>
+				<TXTSH>Manat</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>BZD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Belize-Dollar</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>CNY</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Renminbi Yuan</TXTLG>
+				<TXTSH>Renminbi Yuan</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>CUC</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Peso Convertible</TXTLG>
+				<TXTSH>Peso Conv.</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>DZD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Algerische Dinar</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>EEK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Estnische Krone</TXTLG>
+				<TXTSH>Krone</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>ERN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Nakfa</TXTLG>
+				<TXTSH>Nakfa</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>ETB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ethäopische Birr</TXTLG>
+				<TXTSH>Birr</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>EUR04</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ESA 2009-2013 /(Zahlwähr. EUR)</TXTLG>
+				<TXTSH>ESA 2009-2013</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>EUR08</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>FP07-3 EU 2007-2013 /(Zahlwähr. EUR)</TXTLG>
+				<TXTSH>FP07-3 2007-13</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>EUR09</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ARM-11-005 /(Zahlwähr. EUR)</TXTLG>
+				<TXTSH>ARM-11-005</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>INR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>India Rupie</TXTLG>
+				<TXTSH>Rupie</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>IRR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Iranische Rial</TXTLG>
+				<TXTSH>Rial</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>KIS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kirgisische Som</TXTLG>
+				<TXTSH>Som</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>LAK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Laotische Kip</TXTLG>
+				<TXTSH>Kip</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>LRD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Liberianischer Dollar</TXTLG>
+				<TXTSH>Liber. Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>MMK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Birmanische Kyat</TXTLG>
+				<TXTSH>Kyat</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>MUR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Mauritius Rupie</TXTLG>
+				<TXTSH>Rupie</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>NIC</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Nicaraguanische Cordoba (alt)</TXTLG>
+				<TXTSH>Cordoba</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>NLG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Niederländische Gulden</TXTLG>
+				<TXTSH>Gulden</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>NOK02</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ARM-13-008 / (Zahlwähr. NOK)</TXTLG>
+				<TXTSH>ARM-13-008</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>PYG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Paraguayische Guarani</TXTLG>
+				<TXTSH>Guarani</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>QAR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Katar-Riyal</TXTLG>
+				<TXTSH>Riyal</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>SAR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Saudi Riyal</TXTLG>
+				<TXTSH>Riyal</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>SDP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Sudanesisches Pfund (alt)</TXTLG>
+				<TXTSH>Pfund</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>TJR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Tadschikische Rubel (alt)</TXTLG>
+				<TXTSH>Rubel</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>TRY</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Türkische Neue Lire ab 01.01.2006</TXTLG>
+				<TXTSH>Türk. Neue Lire</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>UAK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ukrainische Karbowanez (alt)</TXTLG>
+				<TXTSH>Karbowanez</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>USD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Amerikanische Dollar</TXTLG>
+				<TXTSH>US Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>USD05</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>MDRI-IDA 09-15 /(Zahlwähr. USD)</TXTLG>
+				<TXTSH>MDRI-IDA 09-15</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>USD11</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>MDRI-AfDF 2018-2026</TXTLG>
+				<TXTSH>MDRI-AfDF 2018-</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>VEF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Venezolanische Bolivar Fuerte</TXTLG>
+				<TXTSH>Bolivar Fuerte</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>BND</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Brunei Dollar</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>BRC</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Brazilian Real</TXTLG>
+				<TXTSH>Real</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>CAD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Canadian Dollar</TXTLG>
+				<TXTSH>Canadian Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>CUP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Cuban Peso</TXTLG>
+				<TXTSH>Cuban Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>CVE</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Cape Verde Escudo</TXTLG>
+				<TXTSH>Escudo</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>EUR13</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ESA 2013-2016 (=TS5)/(Zahlwähr. EUR)</TXTLG>
+				<TXTSH>ESA 13-16 (TS5)</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>FJD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Fiji Dollar</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>FKP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Falkland Pound</TXTLG>
+				<TXTSH>Falkland Pound</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>GBP01</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>British Pound</TXTLG>
+				<TXTSH>Pound sterling</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>GHS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ghanian Cedi</TXTLG>
+				<TXTSH>Cedi</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>GTQ</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Guatemalan Quetzal</TXTLG>
+				<TXTSH>Quetzal</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>HUF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Hungarian Forint</TXTLG>
+				<TXTSH>Forint</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>IRR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Iranian Rial</TXTLG>
+				<TXTSH>Rial</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>JPY</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Japanese Yen</TXTLG>
+				<TXTSH>Yen</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>KIS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kirghizstan Som</TXTLG>
+				<TXTSH>Som</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>KPW</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>North Korean Won</TXTLG>
+				<TXTSH>N. Korean Won</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>LAK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Laotian Kip</TXTLG>
+				<TXTSH>Kip</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>LBP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Lebanese Pound</TXTLG>
+				<TXTSH>Lebanese Pound</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>LYD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Libyan Dinar</TXTLG>
+				<TXTSH>Libyan Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>MAD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Moroccan Dirham</TXTLG>
+				<TXTSH>Dirham</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>MDL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Moldavian Lei</TXTLG>
+				<TXTSH>Lei</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>MTL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Maltese Lira</TXTLG>
+				<TXTSH>Lira</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>MZN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Mozambique Metical</TXTLG>
+				<TXTSH>Metical</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>PAB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Panamanian Balboa</TXTLG>
+				<TXTSH>Balboa</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>PYG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Paraguayan Guarani</TXTLG>
+				<TXTSH>Guarani</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>ROL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Roumanian Lei</TXTLG>
+				<TXTSH>Lei</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>SVC</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>El Salvador Colon</TXTLG>
+				<TXTSH>Colon</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>TJR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Tadzhikistani Ruble</TXTLG>
+				<TXTSH>Rouble</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>UAH</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ukrainian Hryvnia</TXTLG>
+				<TXTSH>Hryvnia</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>USD09</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>American Dollar</TXTLG>
+				<TXTSH>US Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>XAF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Central African CFA franc</TXTLG>
+				<TXTSH>C.f.A. Franc</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>ZWR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Zimbabwean Dollar</TXTLG>
+				<TXTSH>Zimbabwe Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>AOK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Angolan Kwanza</TXTLG>
+				<TXTSH>Kwanza</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>AZM</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Manat azerbaïdjanais</TXTLG>
+				<TXTSH>Manat</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>BIF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Franc burundais</TXTLG>
+				<TXTSH>Franc burundais</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>BND</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar de Brunei</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>BRC</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Brazilian Real</TXTLG>
+				<TXTSH>Real</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>CMG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Florin antillais</TXTLG>
+				<TXTSH>Florin antil.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>CUC</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Peso cubain convertible</TXTLG>
+				<TXTSH>Cubain Conv.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>CZK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Couronne tchèque</TXTLG>
+				<TXTSH>Couronne</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>EGP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Livre égyptienne</TXTLG>
+				<TXTSH>Livre</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>ESP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Peseta espagnole</TXTLG>
+				<TXTSH>Peseta</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>EUR06</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>EUR13</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ESA 2013-2016 (=TS5)/(Zahlwähr. EUR)</TXTLG>
+				<TXTSH>ESA 13-16 (TS5)</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>FJD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar des Fidji</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>FKP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Livre des Falklands</TXTLG>
+				<TXTSH>Livre/Falkland</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>GEK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kupon géorgien</TXTLG>
+				<TXTSH>Kupon</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>HKD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar de Hong Kong</TXTLG>
+				<TXTSH>Dollar H.K.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>IRR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Rial iranien</TXTLG>
+				<TXTSH>Rial</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>JPY</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Yen japonais</TXTLG>
+				<TXTSH>Yen</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>MTL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Lire maltaise</TXTLG>
+				<TXTSH>Lire</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>PLZ</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Polish Zloty</TXTLG>
+				<TXTSH>Zloty</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>QAR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Riyal du Katar</TXTLG>
+				<TXTSH>Riyal</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>RUB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Rouble russe</TXTLG>
+				<TXTSH>Rouble</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>SHP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Livre de St. Hélène</TXTLG>
+				<TXTSH>Livre St.Hélène</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>TPE</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Timor Escudo</TXTLG>
+				<TXTSH>Timor Escudo</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>UGS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ugandan Shilling</TXTLG>
+				<TXTSH>Uganda Shilling</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>USDN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>HR : Dollar américain avec 5 décimales</TXTLG>
+				<TXTSH>Dollar US</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>ZMW</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kwacha de Zambie</TXTLG>
+				<TXTSH>Kwacha</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>ZWR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar du Zimbabwe</TXTLG>
+				<TXTSH>Dollar Zimbabwe</TXTSH>
+			</item>
+			<item>
+				<LANGU>I</LANGU>
+				<CURRENCY>EUR15</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ESA 2014-2019(=TS6)/(Zahlwähr. EUR)</TXTLG>
+				<TXTSH>ESA 14-19 (TS6)</TXTSH>
+			</item>
+			<item>
+				<LANGU>I</LANGU>
+				<CURRENCY>TRY</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Nuova Lira turca / dal 1.1.2006</TXTLG>
+				<TXTSH />
+			</item>
+			<item>
+				<LANGU>I</LANGU>
+				<CURRENCY>YTL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Lira turca / 01.01.2005-31.12.2005</TXTLG>
+				<TXTSH />
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>AZM</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Aserbaidschanische Manat</TXTLG>
+				<TXTSH>Manat</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>BAD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Bosnien-Herzegowinischer Dinar</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>BGL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Bulgarische Lew</TXTLG>
+				<TXTSH>Lew</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>BIF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Burundi Frank</TXTLG>
+				<TXTSH>Burundi Frank</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>BND</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Brunei Dollar</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>BYR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Weissrussische Rubel</TXTLG>
+				<TXTSH>Weissrus.Rubel</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>COP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kolumbianische Peso</TXTLG>
+				<TXTSH>Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>DOP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dominikanische Peso</TXTLG>
+				<TXTSH>Dominik.Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>ESP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Spanische Peseten</TXTLG>
+				<TXTSH>Peseten</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>EUR01</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ESA 2009-2011 /(Zahlwähr. EUR)</TXTLG>
+				<TXTSH>ESA 2009-2011</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>EUR06</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ARM-09-004 / (Zahlwähr. EUR)</TXTLG>
+				<TXTSH>ARM-09-004</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>EUR13</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ESA 2013-2016 (=TS5)/(Zahlwähr. EUR)</TXTLG>
+				<TXTSH>ESA 13-16 (TS5)</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>EUR15</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ILL 2014 - 2018</TXTLG>
+				<TXTSH>ILL 2014 - 2018</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>GBP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Britische Pfund</TXTLG>
+				<TXTSH>Pfund</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>HKD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Hong Kong dollar</TXTLG>
+				<TXTSH>H.K.Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>IDR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Indonesische Rupiah</TXTLG>
+				<TXTSH>Rupiah</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>JPY</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Japanische Yen</TXTLG>
+				<TXTSH>Yen</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>LTL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Litauische Lita</TXTLG>
+				<TXTSH>Lita</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>MGF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Madagasker Frank</TXTLG>
+				<TXTSH>Madagask. Frank</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>MKD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Mazedonischer Denar</TXTLG>
+				<TXTSH>Denar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>MNT</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Mongolianische Tugrik</TXTLG>
+				<TXTSH>Tugrik</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>MOP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Macauanische Pataca</TXTLG>
+				<TXTSH>Pataca</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>NOK01</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ARM-09-002 / (Zahlwähr. NOK)</TXTLG>
+				<TXTSH>ARM-09-002</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>PLZ</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Polnische Zlotty (alt)</TXTLG>
+				<TXTSH>Zlotty</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>RSD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Serbischer Dinar</TXTLG>
+				<TXTSH>Serb. Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>RWF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ruanda-Frank</TXTLG>
+				<TXTSH>Ruanda-Frank</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>SGD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Singapur Dollar</TXTLG>
+				<TXTSH>Sing.Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>SLL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Leone</TXTLG>
+				<TXTSH>Leone</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>SOS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Somalia Schilling</TXTLG>
+				<TXTSH>Schilling</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>UYP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Uruguayischer Neuer Peso</TXTLG>
+				<TXTSH>Neuer Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>YUM</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Jugoslawischer Dinar (alt)</TXTLG>
+				<TXTSH>Jugoslaw. Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>ALL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Albanian Lek</TXTLG>
+				<TXTSH>Lek</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>ARA</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Argentinian Austral</TXTLG>
+				<TXTSH>Austral</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>ATS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Austrian Schilling</TXTLG>
+				<TXTSH>Shilling</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>BEF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Belgian Franc</TXTLG>
+				<TXTSH>Belgian Franc</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>BIF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Burundi Franc</TXTLG>
+				<TXTSH>Burundi Franc</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>CLP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Chilean Peso</TXTLG>
+				<TXTSH>Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>DEM</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>German Mark</TXTLG>
+				<TXTSH>German Mark</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>EUR04</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>EUR09</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>GRD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Greek Drachma</TXTLG>
+				<TXTSH>Drachma</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>KYD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Cayman Dollar</TXTLG>
+				<TXTSH>Cayman Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>LKR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Sri Lankan Rupee</TXTLG>
+				<TXTSH>Sri Lanka Rupee</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>MZM</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Mozambique Metical</TXTLG>
+				<TXTSH>Metical</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>NZD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>New Zealand Dollars</TXTLG>
+				<TXTSH>N.Zeal.Dollars</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>RMB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Chinese Renminbi Yuan</TXTLG>
+				<TXTSH>Renminbi Yuan</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>RON</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Roumanian Lei</TXTLG>
+				<TXTSH>Lei</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>RUB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Russian Rouble</TXTLG>
+				<TXTSH>Rouble</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>RWF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Rwanda Franc</TXTLG>
+				<TXTSH>Rwanda Franc</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>SAR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Saudi Riyal</TXTLG>
+				<TXTSH>Riyal</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>SDG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Sudanese Pound</TXTLG>
+				<TXTSH>Pound</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>SKK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Slovakian Krona</TXTLG>
+				<TXTSH>Krona</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>THB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Thailand Bhat</TXTLG>
+				<TXTSH>Bhat</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>TMT</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Turkmenistani Manat</TXTLG>
+				<TXTSH>Manat</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>TPE</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Timor Escudo</TXTLG>
+				<TXTSH>Timor Escudo</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>TTD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Trinidad and Tobago Dollar</TXTLG>
+				<TXTSH>T.+ T. Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>USD04</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>American Dollar</TXTLG>
+				<TXTSH>US Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>USD06</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>American Dollar</TXTLG>
+				<TXTSH>US Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>USD08</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>American Dollar</TXTLG>
+				<TXTSH>US Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>YER</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Yemeni Ryal</TXTLG>
+				<TXTSH>Yemeni Ryal</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>ZWD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Zimbabwean Dollar</TXTLG>
+				<TXTSH>Zimbabwe Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>ALL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Lek albanais</TXTLG>
+				<TXTSH>Lek</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>ATS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Schilling autrichien</TXTLG>
+				<TXTSH>Schilling</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>AUD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar australien</TXTLG>
+				<TXTSH>Dollar aust.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>CAD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar canadien</TXTLG>
+				<TXTSH>Dollar can.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>DEM</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Deutsche Mark</TXTLG>
+				<TXTSH>Deutsche Mark</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>DOP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Péso dominicain</TXTLG>
+				<TXTSH>Péso dominicain</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>EEK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Couronne estonienne</TXTLG>
+				<TXTSH>Couronne</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>EUR12</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Enterpr.Agreem.12 (MS Li)/(Zahlwähr.EUR)</TXTLG>
+				<TXTSH>Ent.Agree. MS-L</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>GHC</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Cedi du Ghana</TXTLG>
+				<TXTSH>Cedi</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>GYD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar de Guyane</TXTLG>
+				<TXTSH>Dollar/Guyane</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>ITL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Lire italienne</TXTLG>
+				<TXTSH>Lire</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>KRW</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Won Sud-Coréen</TXTLG>
+				<TXTSH>Won S-C.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>KZT</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kazakhstani Tenge</TXTLG>
+				<TXTSH>Tenge</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>LRD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar du Libéria</TXTLG>
+				<TXTSH>Dollar/Libéria</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>MRO</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ouguiya de Maurétanie</TXTLG>
+				<TXTSH>Ouguiya</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>MXN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Mexican Peso (new)</TXTLG>
+				<TXTSH>Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>MYR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Rynget malaysien</TXTLG>
+				<TXTSH>Rynget</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>MZN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Metical du Mozambique</TXTLG>
+				<TXTSH>Metical</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>RON</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Lei de Roumanie</TXTLG>
+				<TXTSH>Lei</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>RWF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Rwanda Franc</TXTLG>
+				<TXTSH>Rwanda Franc</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>SSP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Sud livres soudanaises</TXTLG>
+				<TXTSH>S.livres sudan.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>SVC</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Colon du Salvador</TXTLG>
+				<TXTSH>Colon</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>SYP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Livre syrienne</TXTLG>
+				<TXTSH>Livre syrienne</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>TRL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Lire turque</TXTLG>
+				<TXTSH>Lire</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>UAH</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ukrainian Hryvnia</TXTLG>
+				<TXTSH>Hryvnia</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>VUV</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Vatu de Vanatu</TXTLG>
+				<TXTSH>Vatu</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>XOF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Franc CFA Bénin</TXTLG>
+				<TXTSH>Franc</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>ZMK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kwacha de Zambie</TXTLG>
+				<TXTSH>Kwacha</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>ARS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Argentinischer Peso</TXTLG>
+				<TXTSH>Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>ATS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Österreichische Schilling</TXTLG>
+				<TXTSH>Schilling</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>CAD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kanadische Dollar</TXTLG>
+				<TXTSH>Kan.Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>CRC</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Costa-Rica-Colon</TXTLG>
+				<TXTSH>C-R Colon</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>DEM</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Deutsche Mark</TXTLG>
+				<TXTSH>Deutsch Mark</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>EUR03</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ILL Institut v Laue-Langevin 2009-2013</TXTLG>
+				<TXTSH>ILL 2009-13</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>EUR11</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ESA 2011-2015 (=TS4)/(Zahlwähr. EUR)</TXTLG>
+				<TXTSH>ESA 11-15 (TS4)</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>GBP01</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ARM-11-007 (Zahlwähr. GBP)</TXTLG>
+				<TXTSH>ARM-11-007</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>GNF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Guinea-Frank</TXTLG>
+				<TXTSH>Guinea-Frank</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>HNL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Honduranische Lempira</TXTLG>
+				<TXTSH>Lempira</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>HUF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ungarischer Forint</TXTLG>
+				<TXTSH>Forint</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>ILS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Israelische Schekel</TXTLG>
+				<TXTSH>Schekel</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>KGS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kirgisistischer Som</TXTLG>
+				<TXTSH>Som</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>KPW</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Nordkoreanische Won</TXTLG>
+				<TXTSH>N.K. Won</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>KZT</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kazachische Tenge</TXTLG>
+				<TXTSH>Tenge</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>LVL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Lettländische Lat</TXTLG>
+				<TXTSH>Lat</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>MAD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Marokkanische Dirham</TXTLG>
+				<TXTSH>Dirham</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>MXP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Mexikanische Pesos (alt)</TXTLG>
+				<TXTSH>Pesos</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>NAD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Namibia-Dollar</TXTLG>
+				<TXTSH>Namibia-Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>NOK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Norwegische Kronen</TXTLG>
+				<TXTSH>Norw.Kronen</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>PHP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Philippinische Peso</TXTLG>
+				<TXTSH>Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>SDD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Sudanesischer Dinar (alt)</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>SRD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Surinamische Dollar</TXTLG>
+				<TXTSH>Surin. Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>SUR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Russische Rubel (alt)</TXTLG>
+				<TXTSH>Rubel</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>TMT</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Turkmenische Manat (neu)</TXTLG>
+				<TXTSH>Manat</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>UGS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Uganda Shilling (alt)</TXTLG>
+				<TXTSH>Uganda Shilling</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>USD06</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>MDRI-FAD 08-14 /(Zahlwähr. USD)</TXTLG>
+				<TXTSH>MDRI-FAD 08-14</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>XOF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>CFA-Frank Benin</TXTLG>
+				<TXTSH>Frank</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>XPF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>CFP-Franc</TXTLG>
+				<TXTSH>CFP-Franc</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>YER</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Jemen-Rial</TXTLG>
+				<TXTSH>Jemen-Rial</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>AMD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Armenian Dram</TXTLG>
+				<TXTSH>Dram</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>BDT</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Bangladesh Taka</TXTLG>
+				<TXTSH>Taka</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>BHD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Bahrain Dinar</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>COP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Columbian Peso</TXTLG>
+				<TXTSH>Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>CYP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Cyprus Pound</TXTLG>
+				<TXTSH>Cyprus Pound</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>DJF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Djibouti Franc</TXTLG>
+				<TXTSH>Djibouti Franc</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>EEK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Estonian Krone</TXTLG>
+				<TXTSH>Krona</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>EGP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Egyptian Pound</TXTLG>
+				<TXTSH>Pound</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>EUR01</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>EUR03</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>GMD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Gambian Dalasi</TXTLG>
+				<TXTSH>Dalasi</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>HKD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Hong Kong Dollar</TXTLG>
+				<TXTSH>H.K.Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>IEP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Irish Pound</TXTLG>
+				<TXTSH>Irish Pound</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>KES</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kenyan Shilling</TXTLG>
+				<TXTSH>Shilling</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>LSL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Lesotho Loti</TXTLG>
+				<TXTSH>Loti</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>LTL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Lithuanian Lita</TXTLG>
+				<TXTSH>Lita</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>MUR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Mauritian Rupee</TXTLG>
+				<TXTSH>Rupee</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>NLG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dutch Guilder</TXTLG>
+				<TXTSH>Guilder</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>PTE</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Portuguese Escudo</TXTLG>
+				<TXTSH>Escudo</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>SHP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>St.Helena Pound</TXTLG>
+				<TXTSH>St.Helena Pound</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>SRD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Surinam Guilder</TXTLG>
+				<TXTSH>Surinam Guilder</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>SYP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Syrian Pound</TXTLG>
+				<TXTSH>Syrian Pound</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>UAK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ukrainian Karbowanez</TXTLG>
+				<TXTSH>Karbowanez</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>USD05</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>American Dollar</TXTLG>
+				<TXTSH>US Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>ZMK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Zambian Kwacha</TXTLG>
+				<TXTSH>Kwacha</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>AMD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dram arménien</TXTLG>
+				<TXTSH>Dram</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>ARA</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Argentinian Austral</TXTLG>
+				<TXTSH>Austral</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>BEF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Franc belge</TXTLG>
+				<TXTSH>Franc belge</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>BMD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar des Bermudes</TXTLG>
+				<TXTSH>Dollar Bermudes</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>BRL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Brazilian Real (new)</TXTLG>
+				<TXTSH>Real</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>BWP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Pula du Botswana</TXTLG>
+				<TXTSH>Pula</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>BYR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Rouble de Biélorussie</TXTLG>
+				<TXTSH>Rouble Biélor.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>CRC</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Colon du Costa-Rica</TXTLG>
+				<TXTSH>Colon C-R</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>CUP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Péso cubain</TXTLG>
+				<TXTSH>Péso cubain</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>CYP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Livre chypriote</TXTLG>
+				<TXTSH>Livre chypriote</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>EUR05</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>INR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Roupie indienne</TXTLG>
+				<TXTSH>Roupie</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>JMD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar jamaïquain</TXTLG>
+				<TXTSH>Dollar jamaïq.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>LAK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kip laotien</TXTLG>
+				<TXTSH>Kip</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>LBP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Livre libanaise</TXTLG>
+				<TXTSH>Livre libanaise</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>MDL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Lei de Moldavie</TXTLG>
+				<TXTSH>Lei</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>NGN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Naira du Niger</TXTLG>
+				<TXTSH>Naira</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>NZD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar néo-zélandais</TXTLG>
+				<TXTSH>Dollar n.-z.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>OMR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Rial Omani</TXTLG>
+				<TXTSH>Rial Omani</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>PEI</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Peruvian Inti</TXTLG>
+				<TXTSH>Inti</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>PTE</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Escudo portugais</TXTLG>
+				<TXTSH>Escudo</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>PYG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Guarani du Paraguay</TXTLG>
+				<TXTSH>Guarani</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>RUR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Russian Rubel</TXTLG>
+				<TXTSH>Rouble</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>SCR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Roupie des Seychelles</TXTLG>
+				<TXTSH>Roupie</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>TMT</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Manat du Turkménistan</TXTLG>
+				<TXTSH>Manat</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>USD03</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar américain</TXTLG>
+				<TXTSH>Dollar US</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>VEF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Bolivar du Venezuela</TXTLG>
+				<TXTSH>Bolivar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>AFN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Afghani (neu)</TXTLG>
+				<TXTSH>Afghani</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>BBD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Barbados-Dollar</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>BTN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ngultrum</TXTLG>
+				<TXTSH>Ngultrum</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>CHF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Schweizerische Franken</TXTLG>
+				<TXTSH>Schweiz.Frank</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>CSK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Nicht verwenden - alter Währungscode</TXTLG>
+				<TXTSH>Nicht verwenden</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>CVE</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kap-Verde-Escudo</TXTLG>
+				<TXTSH>Escudo</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>EUR02</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>FP07 EU 2007-2013 /(Zahlwähr. EUR)</TXTLG>
+				<TXTSH>FP07 EU 2007-13</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>FIM</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Finnische Mark</TXTLG>
+				<TXTSH>Finnisch Mark</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>GEL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Georgische Laris</TXTLG>
+				<TXTSH>Georg. Laris</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>HRD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kroatische Dinar</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>JMD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Jamaika-Dollar</TXTLG>
+				<TXTSH>Jamaika-Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>JOD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Jordan-Dinar</TXTLG>
+				<TXTSH>Jordan-Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>KHR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kambodschanische Riel</TXTLG>
+				<TXTSH>Riel</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>KRW</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Südkoreanische Won</TXTLG>
+				<TXTSH>S.K. Won</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>KYD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kaiman-Dollar</TXTLG>
+				<TXTSH>Kaiman-Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>LKR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Sri-Lanka-Rupie</TXTLG>
+				<TXTSH>Sri-Lanka-Rupie</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>MRO</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Mauretanische Ouguiya</TXTLG>
+				<TXTSH>Ouguiya</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>PAB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Panamaische Balboa</TXTLG>
+				<TXTSH>Balboa</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>RON</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Neue Rumänische Lei</TXTLG>
+				<TXTSH>Neue Lei</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>SSP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Süd Sudanesische Pfund</TXTLG>
+				<TXTSH>S. Sudan Pfund</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>TND</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Tunesischer Dinar</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>USD10</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>AfDF-13 2014-2023</TXTLG>
+				<TXTSH>AfDF-13 2014-23</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>UYU</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Uruguayischer Peso</TXTLG>
+				<TXTSH>Urugu. Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>UZS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Usbekistan-Sum</TXTLG>
+				<TXTSH>Usbekistan-Sum</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>WST</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Samoanische Tala</TXTLG>
+				<TXTSH>Tala</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>XEU</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Europäische Währungs Einheit (E.C.U.)</TXTLG>
+				<TXTSH>E.C.U.</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>ZMW</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Zambianische Kwacha</TXTLG>
+				<TXTSH>Kwacha</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>AFA</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Afghani</TXTLG>
+				<TXTSH>Afghani</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>AOA</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Angolan Kwanza</TXTLG>
+				<TXTSH>Kwanza</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>BWP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Botswana Pula</TXTLG>
+				<TXTSH>Pula</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>CRC</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Costa Rica Colon</TXTLG>
+				<TXTSH>Cost.Rica Colon</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>CUC</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Cuban Convertible Peso</TXTLG>
+				<TXTSH>Cuban Conv.</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>ETB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ethiopian Birr</TXTLG>
+				<TXTSH>Birr</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>EUR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>EUR15</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ESA 2014-2019(=TS6)/(Zahlwähr. EUR)</TXTLG>
+				<TXTSH>ESA 14-19 (TS6)</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>FIM</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Finnish Mark</TXTLG>
+				<TXTSH>Finnish Mark</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>FRF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>French Franc</TXTLG>
+				<TXTSH>French Franc</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>GBP02</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>British Pound</TXTLG>
+				<TXTSH>Pound sterling</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>GEK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Georgian Kupon</TXTLG>
+				<TXTSH>Kupon</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>JOD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Jordanian Dinar</TXTLG>
+				<TXTSH>Jordanian Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>KHR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Cambodian Riel</TXTLG>
+				<TXTSH>Riel</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>NOK01</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Norwegian Krone</TXTLG>
+				<TXTSH>Norwegian Krone</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>PLZ</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Polish Zloty</TXTLG>
+				<TXTSH>Zloty</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>QAR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Qatar Riyal</TXTLG>
+				<TXTSH>Riyal</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>SIT</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Slovenian Tolar</TXTLG>
+				<TXTSH>Tolar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>STD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Sao Tome / Principe Dobra</TXTLG>
+				<TXTSH>Dobra</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>TZS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Tanzanian Shilling</TXTLG>
+				<TXTSH>Shilling</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>UGS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ugandan Shilling</TXTLG>
+				<TXTSH>Uganda Shilling</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>USD01</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>American Dollar</TXTLG>
+				<TXTSH>US Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>USD02</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>American Dollar</TXTLG>
+				<TXTSH>US Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>USD07</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>American Dollar</TXTLG>
+				<TXTSH>US Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>UYP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Uruguayan New Peso</TXTLG>
+				<TXTSH>New Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>VEB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Venezuelan Bolivar</TXTLG>
+				<TXTSH>Bolivar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>XCD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>East Carribean Dollar</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>ANG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Florin antillais</TXTLG>
+				<TXTSH>Florin antil.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>CLP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Peso chilien</TXTLG>
+				<TXTSH>Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>DKK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Couronne danoise</TXTLG>
+				<TXTSH>Couronne dan.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>DZD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dinar algérien</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>ECS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ecuador Sucre</TXTLG>
+				<TXTSH>Sucre</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>EUR08</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>GHS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Cedi du Ghana</TXTLG>
+				<TXTSH>Cedi</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>HNL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Lempira du Honduras</TXTLG>
+				<TXTSH>Lempira</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>HUF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Forint hongrois</TXTLG>
+				<TXTSH>Forint</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>KYD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar Kaiman</TXTLG>
+				<TXTSH>Dollar Kaiman</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>LUF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Luxembourgian Franc</TXTLG>
+				<TXTSH>Luxembourg Fr.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>MNT</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Tugrik de Mongolie</TXTLG>
+				<TXTSH>Tugrik</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>MOP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Pataca de Macao</TXTLG>
+				<TXTSH>Pataca</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>NIC</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Cordoba du Nicaragua</TXTLG>
+				<TXTSH>Cordoba</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>NLG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Gulden hollandais</TXTLG>
+				<TXTSH>Gulden</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>NOK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Couronne norvégienne</TXTLG>
+				<TXTSH>Couronne norv.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>NOK01</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Couronne norvégienne</TXTLG>
+				<TXTSH>Couronne norv.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>NPR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Roupie népalaise</TXTLG>
+				<TXTSH>Roupie</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>PHP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Peso des Philippines</TXTLG>
+				<TXTSH>Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>RSD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dinar serbe</TXTLG>
+				<TXTSH>Serb. Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>SEK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Couronne suédoise</TXTLG>
+				<TXTSH>Couronne suéd.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>SOS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Schilling somalien</TXTLG>
+				<TXTSH>Schilling</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>TMM</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Manat du Turkménistan</TXTLG>
+				<TXTSH>Manat</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>TTD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar de Trinidad et Tobago</TXTLG>
+				<TXTSH>Dollar T.etT.</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>TWD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Nouv. Dollar de Taiwan</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>USD07</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Dollar américain</TXTLG>
+				<TXTSH>Dollar US</TXTSH>
+			</item>
+			<item>
+				<LANGU>F</LANGU>
+				<CURRENCY>ZAR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Rand sud-africain</TXTLG>
+				<TXTSH>Rand</TXTSH>
+			</item>
+			<item>
+				<LANGU>I</LANGU>
+				<CURRENCY>CUC</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Peso cubano convertibile</TXTLG>
+				<TXTSH>Cubano Conv.</TXTSH>
+			</item>
+			<item>
+				<LANGU>I</LANGU>
+				<CURRENCY>EUR14</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ESA 2014-2019(=TS6)/(Zahlwähr. EUR)</TXTLG>
+				<TXTSH>ESA 14-19 (TS6)</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>AED</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Vereinigte Arabische Emirate Dirham</TXTLG>
+				<TXTSH>Dirham</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>ANG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Antilianische Gulden</TXTLG>
+				<TXTSH>Ant. Gulden</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>AOK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Angolesische Kwanza (alt)</TXTLG>
+				<TXTSH>Kwanza</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>AUD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Australien Dollar</TXTLG>
+				<TXTSH>Austr.Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>BOB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Boliviano</TXTLG>
+				<TXTSH>Boliviano</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>CDF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kongo-Franc</TXTLG>
+				<TXTSH>Kongo-Franc</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>CLP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Chilenische Pesos</TXTLG>
+				<TXTSH>Pesos</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>EUR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>EUR07</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>ESA 2011-2015 (=TS3)/(Zahlwähr. EUR)</TXTLG>
+				<TXTSH>ESA 11-15 (TS3)</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>GRD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Griechische Drachme</TXTLG>
+				<TXTSH>Drachme</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>GWP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Guinea-Peso</TXTLG>
+				<TXTSH>Guinea-Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>KES</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Kenianische Schilling</TXTLG>
+				<TXTSH>Schilling</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>KMF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Komoren-Frank</TXTLG>
+				<TXTSH>Komoren-Frank</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>LBP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Libanesisches Pfund</TXTLG>
+				<TXTSH>Liban. Pfund</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>MDL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Moldavische Lei</TXTLG>
+				<TXTSH>Lei</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>MTL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Maltesische Lira</TXTLG>
+				<TXTSH>Lira</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>MXN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Mexikanische Pesos (Nuevo)</TXTLG>
+				<TXTSH>Pesos</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>NGN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Nigerianische Naira</TXTLG>
+				<TXTSH>Naira</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>NIO</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Nicaraguanische Cordoba (neu)</TXTLG>
+				<TXTSH>Cordoba</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>RMB</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Chinesische RenMinBi Yuan</TXTLG>
+				<TXTSH>RMB Yuan</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>SCR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Seychellen Rupie</TXTLG>
+				<TXTSH>Rupie</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>SYP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Syrisches Pfund</TXTLG>
+				<TXTSH>Syrisches Pfund</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>TRL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>(Türkische Lira/ungültig ab 05.01.2005)</TXTLG>
+				<TXTSH>Lira</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>USD12</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>MDRI-IDA 2017-2025</TXTLG>
+				<TXTSH>MDRI-IDA 17-25</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>USDN</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>HR: Amerikanische Dollar m. 5 Nachkomma.</TXTLG>
+				<TXTSH>US Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>XAF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>CFA-Frank Gabun</TXTLG>
+				<TXTSH>CFA-Frank</TXTSH>
+			</item>
+			<item>
+				<LANGU>D</LANGU>
+				<CURRENCY>ZAR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Südafrikanische Rand</TXTLG>
+				<TXTSH>Rand</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>AOK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Angolan Kwanza</TXTLG>
+				<TXTSH>Kwanza</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>BAD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Bosnia-Herzogovinian Dinar</TXTLG>
+				<TXTSH>Dinar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>BRL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Brazilian Real (new)</TXTLG>
+				<TXTSH>Real</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>BSD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Bahaman Dollar</TXTLG>
+				<TXTSH>Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>BYR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Belorussian Ruble</TXTLG>
+				<TXTSH>Beloruss.Ruble</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>CHF</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Swiss Franc</TXTLG>
+				<TXTSH>Swiss Franc</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>CMG</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>West Indian Guilder</TXTLG>
+				<TXTSH>W.Ind.Guilder</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>DKK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Danish Krone</TXTLG>
+				<TXTSH>Danish Krone</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>ECS</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Ecuador Sucre</TXTLG>
+				<TXTSH>Sucre</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>EUR02</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Euro</TXTLG>
+				<TXTSH>Euro</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>GBP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>British Pound</TXTLG>
+				<TXTSH>Pound sterling</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>HNL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Honduran Lempira</TXTLG>
+				<TXTSH>Lempira</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>INR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Indian Rupee</TXTLG>
+				<TXTSH>Rupee</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>MWK</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Malawi Kwacha</TXTLG>
+				<TXTSH>Malawi Kwacha</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>MXP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Mexican Peso (old)</TXTLG>
+				<TXTSH>Peso</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>MYR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Malaysian Ringgit</TXTLG>
+				<TXTSH>Ringgit</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>PKR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Pakistani Rupee</TXTLG>
+				<TXTSH>Rupee</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>SBD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Solomon Islands Dollar</TXTLG>
+				<TXTSH>Sol.Isl.Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>SCR</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Seychelles Rupee</TXTLG>
+				<TXTSH>Rupee</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>SGD</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Singapore Dollar</TXTLG>
+				<TXTSH>Sing.Dollar</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>SZL</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Swaziland Lilangeni</TXTLG>
+				<TXTSH>Lilangeni</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>TMM</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Turkmenistani Manat</TXTLG>
+				<TXTSH>Manat</TXTSH>
+			</item>
+			<item>
+				<LANGU>E</LANGU>
+				<CURRENCY>TOP</CURRENCY>
+				<RECORDMODE />
+				<TXTLG>Tongan Pa'anga</TXTLG>
+				<TXTSH>Pa'anga</TXTSH>
+			</item>
+		</DATA>
+	</asx:values>
+</asx:abap>

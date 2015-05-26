@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="urn:crystal-reports:schemas:report-detail" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:crystal-reports:schemas:report-detail" elementFormDefault="qualified">
+	<!-- the CTReport contains all the other elements -->
+	<xsd:complexType name="CrystalReport">
+		<xsd:sequence>
+			<xsd:element name="ReportHeader" type="HeaderFooter" minOccurs="0"/>
+			<xsd:choice>
+				<xsd:element name="Details" type="Details" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element name="Group" type="Group" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:choice>
+			<xsd:element name="ReportFooter" type="HeaderFooter" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<!--	Header and Footer	-->
+	<xsd:complexType name="HeaderFooter">
+		<xsd:sequence minOccurs="0" maxOccurs="unbounded">
+			<xsd:element name="Section" type="Section" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<!-- 	Details	-->
+	<xsd:complexType name="Details">
+		<xsd:sequence>
+			<xsd:element name="Section" type="Section" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+		<xsd:attribute name="Level" type="xsd:integer" use="required"/>
+	</xsd:complexType>
+	<!--	Group	-->
+	<xsd:complexType name="Group">
+		<xsd:sequence>
+			<xsd:element name="GroupHeader" type="HeaderFooter" minOccurs="0"/>
+			<xsd:choice>
+				<xsd:element name="Details" type="Details" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element name="Group" type="Group" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:choice>
+			<xsd:element name="GroupFooter" type="HeaderFooter" minOccurs="0"/>
+		</xsd:sequence>
+		<xsd:attribute name="Level" type="xsd:integer" use="required"/>
+	</xsd:complexType>
+	<!-- 	Section	-->
+	<xsd:complexType name="Section">
+		<xsd:choice minOccurs="0" maxOccurs="unbounded">
+			<xsd:element name="Field" type="Field" minOccurs="0"/>
+			<xsd:element name="Text" type="Text" minOccurs="0"/>
+			<xsd:element name="Picture" type="Picture" minOccurs="0"/>
+			<xsd:element name="CrossTab" type="CrossTab" minOccurs="0"/>
+			<xsd:element name="Subreport" type="Subreport" minOccurs="0"/>
+		</xsd:choice>
+		<xsd:attribute name="SectionNumber" type="xsd:integer" use="required"/>
+	</xsd:complexType>
+	<!--	 Field -->
+	<xsd:complexType name="Field">
+		<xsd:sequence>
+			<xsd:element name="FormattedValue" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="Value" type="xsd:string" minOccurs="0"/>
+		</xsd:sequence>
+		<xsd:attribute name="Name" type="xsd:string" use="required"/>
+		<xsd:attribute name="FieldName" type="xsd:string" use="required"/>
+	</xsd:complexType>
+	<!--	 Text -->
+	<xsd:complexType name="Text">
+		<xsd:sequence>
+			<xsd:element name="TextValue" type="xsd:string"/>
+		</xsd:sequence>
+		<xsd:attribute name="Name" type="xsd:string" use="required"/>
+	</xsd:complexType>
+	<!--	 Picture -->
+	<xsd:complexType name="Picture" mixed="true">
+		<xsd:attribute name="Name" type="xsd:string" use="required"/>
+		<xsd:attribute name="GraphicType" type="xsd:string" use="required"/>
+	</xsd:complexType>
+	<!--	 Subreport -->
+	<xsd:complexType name="Subreport">
+		<xsd:complexContent>
+			<xsd:extension base="CrystalReport">
+				<xsd:sequence minOccurs="0" maxOccurs="unbounded">
+					<xsd:element name="OnDemandSubreportCaption" type="xsd:string"/>
+				</xsd:sequence>
+				<xsd:attribute name="Name" type="xsd:string" use="required"/>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<!--	 CrossTab -->
+	<xsd:complexType name="CrossTab">
+		<xsd:sequence>
+			<xsd:choice minOccurs="0" maxOccurs="1">
+				<xsd:element name="OlapSectHead" type="OlapSectHead"/>
+			</xsd:choice>
+			<xsd:element name="RowGroups" type="RowGroups"/>
+			<xsd:element name="ColumnGroups" type="ColumnGroups"/>
+			<xsd:choice minOccurs="0" maxOccurs="1">
+				<xsd:element name="SummaryFieldLabels" type="SummaryFieldLabels"/>
+			</xsd:choice>
+			<xsd:element name="Cells" type="Cells"/>
+		</xsd:sequence>
+		<xsd:attribute name="Name" type="xsd:string" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="OlapSectHead">
+		<xsd:choice minOccurs="0" maxOccurs="unbounded">
+			<xsd:element name="SectHead" type="xsd:string"/>
+		</xsd:choice>
+	</xsd:complexType>
+	<xsd:complexType name="RowGroups">
+		<xsd:choice minOccurs="0" maxOccurs="unbounded">
+			<xsd:element name="RowTotal" type="RowTotal"/>
+			<xsd:element name="RowGroup" type="RowGroups"/>
+		</xsd:choice>
+	</xsd:complexType>
+	<xsd:complexType name="ColumnGroups">
+		<xsd:choice minOccurs="0" maxOccurs="unbounded">
+			<xsd:element name="ColumnTotal" type="ColumnTotal"/>
+			<xsd:element name="ColumnGroup" type="ColumnGroups"/>
+		</xsd:choice>
+	</xsd:complexType>
+	<xsd:complexType name="SummaryFieldLabels">
+		<xsd:choice minOccurs="0" maxOccurs="unbounded">
+			<xsd:element name="SummaryFieldLabel" type="SummaryFieldLabel"/>
+		</xsd:choice>
+	</xsd:complexType>
+	<xsd:complexType name="SummaryFieldLabel" mixed="true">
+		<xsd:attribute name="RowNumber" type="xsd:integer"/>
+		<xsd:attribute name="ColumnNumber" type="xsd:integer"/>
+		<xsd:attribute name="Index" type="xsd:integer" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="RowTotal" mixed="true">
+		<xsd:attribute name="RowNumber" type="xsd:integer" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="ColumnTotal" mixed="true">
+		<xsd:attribute name="ColumnNumber" type="xsd:integer" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="Cells">
+		<xsd:sequence minOccurs="0" maxOccurs="unbounded">
+			<xsd:element name="Cell" type="Cell"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="Cell">
+		<xsd:sequence minOccurs="0" maxOccurs="unbounded">
+			<xsd:element name="CellValue" type="CellValue"/>
+		</xsd:sequence>
+		<xsd:attribute name="RowNumber" type="xsd:integer" use="required"/>
+		<xsd:attribute name="ColumnNumber" type="xsd:integer" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="CellValue" mixed="true">
+		<xsd:sequence>
+			<xsd:element name="FormattedValue" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="Value" type="xsd:string" minOccurs="0"/>
+		</xsd:sequence>
+		<xsd:attribute name="Index" type="xsd:integer" use="required"/>
+	</xsd:complexType>
+	<xsd:element name="CrystalReport" type="CrystalReport"/>
+</xsd:schema>

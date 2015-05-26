@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CrystalReport xmlns="urn:crystal-reports:schemas:report-detail"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:crystal-reports:schemas:report-detail http://www.businessobjects.com/products/xml/CR2008Schema.xsd">
+<ReportHeader>
+<Section SectionNumber="0">
+<Field Name="TTitel1" FieldName="{@T_Titel}"><FormattedValue>Finanzierungsrechnung(Überblick)</FormattedValue><Value>Finanzierungsrechnung(Überblick)</Value></Field>
+</Section>
+</ReportHeader>
+<Group Level="1">
+<Group Level="2">
+<GroupHeader>
+<Section SectionNumber="0">
+<Field Name="JECKRJKD1" FieldName="{@[JE_HP1]~D/L~02}"><FormattedValue>Ordentliches Finanzierungsergebnis</FormattedValue><Value>Ordentliches Finanzierungsergebnis</Value></Field>
+<Field Name="SummevonDIFRESAVAGJFWRESAVAGJ1KGJ1FW1" FieldName="Sum ({@DIF_RESA_RGJ_FW_RGJ_1_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>-1 456</FormattedValue><Value>1455.62</Value></Field>
+<Field Name="SummevonRESARGJ1FW1" FieldName="Sum ({@RESA_RGJ_1_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>1 332</FormattedValue><Value>-1331.67</Value></Field>
+<Field Name="SummevonRESAVAGJFW1" FieldName="Sum ({@RESA_VAGJ_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>121</FormattedValue><Value>-121.15</Value></Field>
+<Field Name="SummevonRESARGJFW1" FieldName="Sum ({@RESA_RGJ_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>-124</FormattedValue><Value>123.95</Value></Field>
+</Section>
+</GroupHeader>
+</Group>
+<Group Level="2">
+<GroupHeader>
+<Section SectionNumber="0">
+<Field Name="JECKRJKD1" FieldName="{@[JE_HP1]~D/L~02}"><FormattedValue>Ordentliche Einnahmen</FormattedValue><Value>Ordentliche Einnahmen</Value></Field>
+<Field Name="SummevonDIFRESAVAGJFWRESAVAGJ1KGJ1FW1" FieldName="Sum ({@DIF_RESA_RGJ_FW_RGJ_1_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>-1 156</FormattedValue><Value>1155.60</Value></Field>
+<Field Name="PRORESAVAGJRESAVAGJ1KGJ1L031" FieldName="{@PRO_RESA_RGJ_FW_RGJ_1_FW_L03}"><FormattedValue>-1,8</FormattedValue><Value>1.78</Value></Field>
+<Field Name="SummevonRESARGJ1FW1" FieldName="Sum ({@RESA_RGJ_1_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>65 032</FormattedValue><Value>-65031.65</Value></Field>
+<Field Name="SummevonRESAVAGJFW1" FieldName="Sum ({@RESA_VAGJ_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>66 245</FormattedValue><Value>-66244.86</Value></Field>
+<Field Name="SummevonRESARGJFW1" FieldName="Sum ({@RESA_RGJ_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>63 876</FormattedValue><Value>-63876.05</Value></Field>
+</Section>
+</GroupHeader>
+</Group>
+<Group Level="2">
+<GroupHeader>
+<Section SectionNumber="0">
+<Field Name="JECKRJKD1" FieldName="{@[JE_HP1]~D/L~02}"><FormattedValue>Ordentliche Ausgaben</FormattedValue><Value>Ordentliche Ausgaben</Value></Field>
+<Field Name="SummevonDIFRESAVAGJFWRESAVAGJ1KGJ1FW1" FieldName="Sum ({@DIF_RESA_RGJ_FW_RGJ_1_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>300</FormattedValue><Value>300.02</Value></Field>
+<Field Name="PRORESAVAGJRESAVAGJ1KGJ1L031" FieldName="{@PRO_RESA_RGJ_FW_RGJ_1_FW_L03}"><FormattedValue>0,5</FormattedValue><Value>-0.47</Value></Field>
+<Field Name="SummevonRESARGJ1FW1" FieldName="Sum ({@RESA_RGJ_1_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>63 700</FormattedValue><Value>63699.98</Value></Field>
+<Field Name="SummevonRESAVAGJFW1" FieldName="Sum ({@RESA_VAGJ_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>66 124</FormattedValue><Value>66123.71</Value></Field>
+<Field Name="SummevonRESARGJFW1" FieldName="Sum ({@RESA_RGJ_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>64 000</FormattedValue><Value>64000.00</Value></Field>
+</Section>
+</GroupHeader>
+</Group>
+<Group Level="2">
+<GroupHeader>
+<Section SectionNumber="0">
+<Field Name="JECKRJKD1" FieldName="{@[JE_HP1]~D/L~02}"><FormattedValue>Finanzierungsergebnis</FormattedValue><Value>Finanzierungsergebnis</Value></Field>
+<Field Name="SummevonDIFRESAVAGJFWRESAVAGJ1KGJ1FW1" FieldName="Sum ({@DIF_RESA_RGJ_FW_RGJ_1_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>-2 549</FormattedValue><Value>2549.13</Value></Field>
+<Field Name="SummevonRESARGJ1FW1" FieldName="Sum ({@RESA_RGJ_1_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>2 638</FormattedValue><Value>-2638.14</Value></Field>
+<Field Name="SummevonRESAVAGJFW1" FieldName="Sum ({@RESA_VAGJ_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>121</FormattedValue><Value>-121.15</Value></Field>
+<Field Name="SummevonRESARGJFW1" FieldName="Sum ({@RESA_RGJ_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>89</FormattedValue><Value>-89.01</Value></Field>
+</Section>
+</GroupHeader>
+</Group>
+<Group Level="2">
+<GroupHeader>
+<Section SectionNumber="0">
+<Field Name="JECKRJKD1" FieldName="{@[JE_HP1]~D/L~02}"><FormattedValue>Ausserordentliche Einnahmen</FormattedValue><Value>Ausserordentliche Einnahmen</Value></Field>
+<Field Name="SummevonDIFRESAVAGJFWRESAVAGJ1KGJ1FW1" FieldName="Sum ({@DIF_RESA_RGJ_FW_RGJ_1_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>-1 094</FormattedValue><Value>1093.51</Value></Field>
+<Field Name="SummevonRESARGJ1FW1" FieldName="Sum ({@RESA_RGJ_1_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>1 306</FormattedValue><Value>-1306.47</Value></Field>
+<Field Name="SummevonRESAVAGJFW1" FieldName="Sum ({@RESA_VAGJ_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>0</FormattedValue><Value>0.00</Value></Field>
+<Field Name="keinWert10" FieldName="{@kein Wert}"><FormattedValue>–</FormattedValue><Value>–</Value></Field>
+<Field Name="SummevonRESARGJFW1" FieldName="Sum ({@RESA_RGJ_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>213</FormattedValue><Value>-212.96</Value></Field>
+</Section>
+</GroupHeader>
+</Group>
+<Group Level="2">
+<GroupHeader>
+<Section SectionNumber="0">
+<Field Name="JECKRJKD1" FieldName="{@[JE_HP1]~D/L~02}"><FormattedValue>Ausserordentliche Ausgaben</FormattedValue><Value>Ausserordentliche Ausgaben</Value></Field>
+<Field Name="keinWertDiffL031" FieldName="{@kein Wert Diff L03}"><FormattedValue>–</FormattedValue><Value>0.00</Value></Field>
+<Field Name="SummevonRESARGJ1FW1" FieldName="Sum ({@RESA_RGJ_1_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>0</FormattedValue><Value>0.00</Value></Field>
+<Field Name="keinWert1" FieldName="{@kein Wert}"><FormattedValue>–</FormattedValue><Value>–</Value></Field>
+<Field Name="SummevonRESAVAGJFW1" FieldName="Sum ({@RESA_VAGJ_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>0</FormattedValue><Value>0.00</Value></Field>
+<Field Name="keinWert10" FieldName="{@kein Wert}"><FormattedValue>–</FormattedValue><Value>–</Value></Field>
+<Field Name="SummevonRESARGJFW1" FieldName="Sum ({@RESA_RGJ_FW}, {@[JE_HP1]~K/L~02})"><FormattedValue>0</FormattedValue><Value>0.00</Value></Field>
+<Field Name="keinWert2" FieldName="{@kein Wert}"><FormattedValue>–</FormattedValue><Value>–</Value></Field>
+</Section>
+</GroupHeader>
+</Group>
+<GroupFooter>
+<Section SectionNumber="1">
+</Section>
+</GroupFooter>
+</Group>
+<ReportFooter>
+<Section SectionNumber="0">
+</Section>
+</ReportFooter>
+</CrystalReport>

@@ -1,0 +1,709 @@
+Verzeichnis:  /usr/sap/B91/DVEBMGS01/work
+Name:         TEST_DTR2.CSV
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+E;WST;;Samoan Tala;Tala
+E;ZRZ;;Zaire;Zaire
+F;ADP;;Peseta d'Andorre;Peseta
+F;AED;;Emirat arabes unis Dirham;Dirham
+F;AZN;;Manat azerbaïdjanais;Manat
+F;BDT;;Taka du Bangladesh;Taka
+F;BGL;;Lew de Bulgarie;Lew
+F;BHD;;Dinar du Bahrain;Dinar
+F;EUR04;;Euro;Euro
+F;GNF;;Guinea Franc;Guinea Franc
+F;KHR;;Riel cambodgien;Riel
+F;MAD;;Dirham du Maroc;Dirham
+F;MGF;;Franc de Madagascar;Franc Madagasc.
+F;MVR;;Rufiyaa des Maldives;Rufiyaa
+F;MXP;;Peso mexicain;Peso
+F;MZM;;Metical du Mozambique;Metical
+F;PKR;;Roupie pakistanaise;Roupie
+F;SGD;;Dollar de singapur;Dollar sing.
+F;SRG;;Florin du Surinam;Florin/Surinam
+F;TRY;;Nouvelle lire turque / dès le 1.1.2006;
+F;USD;;Dollar américain;Dollar US
+F;USD01;;Dollar américain;Dollar US
+F;WST;;Tala des Samoa;Tala
+F;YTL;;Lire turque;Lire
+F;ZRZ;;Zaire;Zaire
+F;ZWD;;Dollar  du Zimbabwe;Dollar Zimbabwe
+D;BMD;;Bermuda Dollar;Berm. Dollar
+D;BWP;;Botswanische Pula;Pula
+D;CMG;;Karibischer Gulden;Karib. Gulden
+D;CUP;;Kubanische Peso;Kuban. Peso
+D;EGP;;Ägyptisches Pfund;Pfund
+D;EUR10;;EU-Bild.- & Jugendprog /(Zahlwähr. EUR);EU-Bild.-&Juge.
+D;EUR12;;Enterpr.Agreem.12 (MS Li)/(Zahlwähr.EUR);Ent.Agree. MS-L
+D;FKP;;Falkland Pfund;Falkland Pfund
+D;GHS;;Ghanesische Cedi (neu);Cedi
+D;GYD;;Guyana-Dollar;Guyana-Dollar
+D;HRK;;Kroatische Kuna;Kuna
+D;HTG;;Haitianische Gourde;Gourde
+D;ISK;;Isländische Krone;Krone
+D;LSL;;Lesotische Loti;Loti
+D;LYD;;Libyscher Dinar;Libyscher Dinar
+D;MGA;;Madagassischer Ariary;Madag.Ariary
+D;MZN;;Mosambikanische Metical (neu);Metical
+D;NZD;;Neuseeland-Dollar;N.S.-Dollar
+D;PEI;;Peruanische Inti;Inti
+D;PEN;;Neuer Sol (Peruanisch);Neuer Sol
+D;PTE;;Portugiesische Escudos;Escudos
+D;ROL;;Rumänische Lei;Lei
+D;RUR;;Russischer Rubel (alt);Rubel
+D;SDG;;Sudanesisches Pfund (neu);Pfund
+D;SKK;;Slowakische Krone;Krone
+D;STD;;Santomeische Dobra;Dobra
+D;SVC;;El Salvador-Colon;Colon
+D;SZL;;Swasiländische Lilangeni;Lilangeni
+D;TJS;;tadschikische Somoni;Somoni
+D;TPE;;Timor Escudo;Timor Escudo
+D;TWD;;Neuer Taiwan-Dollar;Dollar
+D;USD01;;FAD X /(Zahlwähr. USD);FAD X
+D;USD07;;ARM-09-003 / (Zahlwähr. USD);ARM-09-003
+D;VEB;;Venezolanische Bolivar;Bolivar
+D;VND;;Vietnamesische Dong;Dong
+D;VUV;;Vanuatische Vatu;Vatu
+D;ZWR;;Simbabwe Dollar (neu);Simbabwe Dollar
+E;AWG;;Aruban Guilder;Aruban Guilder
+E;BOB;;Bolivian peso;Peso
+E;CZK;;Czech Krona;Krona
+E;DOP;;Dominican Peso;Dominican Peso
+E;DZD;;Algerian Dinar;Dinar
+E;ESP;;Spanish Peseta;Peseta
+E;EUR05;;Euro;Euro
+E;EUR07;;Euro;Euro
+E;EUR11;;Euro;Euro
+E;EUR12;;Enterpr.Agreem.12 (MS Li)/(Zahlwähr.EUR);Ent.Agree. MS-L
+E;ILS;;Israeli Scheckel;Scheckel
+E;KMF;;Comoros Franc;Comoros Franc
+E;MOP;;Macao Pataca;Pataca
+E;MRO;;Mauritanian Ouguiya;Ouguiya
+E;SEK;;Swedish Krona;Swedish Krona
+E;SSP;;South Sudanese Pound;S.Sudan.Pound
+E;SUR;;Russian Ruble (old);Rouble
+E;TWD;;New Taiwan Dollar;Dollar
+E;USD;;American Dollar;US Dollar
+E;USDN;;HR: US dollars with 5 decimal places;US Dollar
+E;VEF;;Venezuelan Bolivar;Bolivar
+E;XEU;;European Currency Unit (E.C.U.);E.C.U.
+E;YTL;;Turkish Lira;Lira
+E;ZAR;;South African Rand;Rand
+E;ZMW;;Zambian Kwacha;Kwacha
+F;AFA;;Afghani;Afghani
+F;AWG;;Couronne d'Aruba;Couronne Aruba
+F;BAD;;Dinar de Bosnie-Herzégovine;Dinar
+F;BSD;;Dollar des Bahamas;Dollar
+F;BZD;;Dollar de Bélize;Dollar
+F;EUR01;;Euro;Euro
+F;EUR02;;Euro;Euro
+F;EUR03;;Euro;Euro
+F;EUR07;;Euro;Euro
+F;EUR09;;Euro;Euro
+F;EUR10;;Euro;Euro
+F;GRD;;Drachme grècque;Drachme
+F;GTQ;;Quetzal du Guatemala;Quetzal
+F;IEP;;Irish Pound;Irish Pound
+F;JOD;;Dinar jordanien;Dinar jordanien
+F;KWD;;Dinar Koweiti;Dinar
+F;LSL;;Loti du Lésotho;Loti
+F;LYD;;Dinar libyen;Dinar libyen
+F;NOK02;;Couronne norvégienne;Couronne norv.
+F;SDP;;Livre soudanaise;Livre
+F;SLL;;Leone;Leone
+F;SRD;;Florin du Surinam;Florin/Surinam
+F;TJR;;Rouble du Tadjikistan;Rouble
+F;TND;;Dinar tunisien;Dinar
+F;TOP;;Pa'anga des Iles Tonga;Pa'anga
+F;TZS;;Schilling de Tanzanie;Schilling
+F;USD05;;Dollar américain;Dollar US
+F;VND;;Dong vietnamien;Dong
+F;YER;;Rial du Jemen;Rial du Jemen
+I;SSP;;Sterlina sudsudanese;Sterlina suds.
+D;AWG;;Arubanische Gulden;Arub.Gulden
+D;BAM;;Bosnisch-Herzogwinische kon. Mark;Bos-Herzog-Mark
+D;BDT;;Bangladesch Taka;Taka
+D;BEF;;Belgische Franken;Belg.Frank
+D;BRC;;Brasilianische Real;Real
+D;BRL;;Brasilianische Real (neu);Real
+D;BSD;;Bahama Dollar;Dollar
+D;CSD;;Serbien Dinars;Serbien Dinars
+D;CYP;;Zypern Pfund;Zypern Pfund
+D;DJF;;Dschibuti Frank;Dschibuti Frank
+D;DKK;;Dänische Kronen;Dän.Kronen
+D;GBP02;;ARM-13-009 (Zahlwähr. GBP);ARM-13-009
+D;GEK;;Georgisches Kupon;Kupon
+D;GHC;;Ghanesische Cedi (alt);Cedi
+D;GTQ;;Guatemalische Quetzal;Quetzal
+D;IQD;;Irakische-Dinar;Dinar
+D;ITL;;Italienische Lire;Lire
+D;KWD;;Kuwaitische Dinar;Dinar
+D;LUF;;Luxembourgische Franken;Lux. Franken
+D;MVR;;Maledivische Rufiyaa;Rufiyaa
+D;MYR;;Malaysischer Ringgit;Ringgit
+D;MZM;;Mosambikanische Metical (alt);Metical
+D;PGK;;Papua-Neuguineische Kina;Kina
+D;SEK;;Schwedische Kronen;Schwed.Kronen
+D;TOP;;Tongaische Pa'anga;Pa'anga
+D;TTD;;Trinidad-u. Tobago-Dollar;T-u.T. Dollar
+D;TZS;;Tansania-Shilling;Shilling
+D;UGX;;Uganda Schilling (neu);Schilling
+D;USD08;;MDBs Capital Incr.2011-2020 /(Zahlw.USD);MDBs CI 11-20
+D;XCD;;Ostkaribischer Dollar;Dollar
+D;ZMK;;Zambianische Kwacha;Kwacha
+D;ZRZ;;Zaire;Zaire
+E;AED;;United Arab Emirates Dirham;Dirham
+E;ANG;;West Indian Guilder;W.Ind.Guilder
+E;AUD;;Australian Dollar;Austr. Dollar
+E;AZM;;Azerbaijan Manat;Manat
+E;AZN;;Azerbaijan Manat;Manat
+E;BGL;;Bulgarian Lev;Lev
+E;BZD;;Belize Dollar;Dollar
+E;EUR06;;Euro;Euro
+E;EUR14;;ESA 2014-2019(=TS6)/(Zahlwähr. EUR);ESA 14-19 (TS6)
+E;GHC;;Ghanian Cedi;Cedi
+E;GIP;;Gibraltar Pound;Gibraltar Pound
+E;GWP;;Guinea Peso;Guinea Peso
+E;HRD;;Croatian Dinar;Dinar
+E;IDR;;Indonesian Rupiah;Rupiah
+E;ISK;;Iceland Krona;Krona
+E;ITL;;Italian Lira;Lire
+E;JMD;;Jamaican Dollar;Jamaican Dollar
+E;KRW;;South Korean Won;S.Korean Won
+E;KWD;;Kuwaiti Dinar;Dinar
+E;LRD;;Liberian Dollar;Liberian Dollar
+E;LVL;;Latvian Lat;Lat
+E;MNT;;Mongolian Tugrik;Tugrik
+E;MXN;;Mexican Peso (new);Peso
+E;NIC;;Nicaraguan Cordoba;Cordoba
+E;PEI;;Peruvian Inti;Inti
+E;PHP;;Philippino Peso;Peso
+E;RSD;;Serbian Dinar;Serbian Dinar
+E;RUR;;Russian Rubel;Rouble
+E;SDP;;Sudanese Pound;Pound
+E;SLL;;Leone;Leone
+E;SOS;;Somalian Shilling;Shilling
+E;TND;;Tunisian Dinar;Dinar
+E;VND;;Vietnamese Dong;Dong
+E;VUV;;Vanuatu Vatu;Vatu
+F;AFN;;Afghani;Afghani
+F;BBD;;Dollar de la Barbade;Dollar
+F;BOB;;Boliviano;Boliviano
+F;DJF;;Franc de Djibouti;Franc/Djibouti
+F;EUR;;Euro;Euro
+F;EUR11;;Euro;Euro
+F;EUR14;;ESA 2014-2019(=TS6)/(Zahlwähr. EUR);ESA 14-19 (TS6)
+F;EUR15;;ESA 2014-2019(=TS6)/(Zahlwähr. EUR);ESA 14-19 (TS6)
+F;FIM;;Mark finlandais;Mark finl.
+F;GBP01;;Livre Sterling;Livre
+F;GIP;;Livre de Gibraltar;Livre Gibr.
+F;GMD;;Dalasi du Gabon;Dalasi
+F;HRD;;Croatian Dinar;Dinar
+F;HTG;;Gourde haïtienne;Gourde
+F;ILS;;Schekel d'Israël;Schekel
+F;KIS;;Kirghizstan Som;Som
+F;LKR;;Roupie de Sri Lanka;Roupie S. Lanka
+F;LVL;;Lat de Lettonie;Lat
+F;MUR;;Roupie mauricienne;Roupie
+F;PGK;;Kina de Papouasie-Nouv.Guinée;Kina
+F;ROL;;Lei de Roumanie;Lei
+F;SBD;;Dollar des I. Salomon;Dollar/Salomon
+F;STD;;Dobra de Sao Tomé;Dobra
+F;SZL;;Lilangeni du Swaziland;Lilangeni
+F;THB;;Bhat thailandais;Bhat
+F;UAK;;Ukrainian Karbowanez;Karbowanez
+F;USD02;;Dollar américain;Dollar US
+F;USD06;;Dollar américain;Dollar US
+F;XAF;;Franc CFA Gabon;Franc CFA
+F;XCD;;Dollar Caraïbes orient.;Dollar
+I;EUR12;;Enterpr.Agreem.12 (MS Li)/(Zahlwähr.EUR);Ent.Agree. MS-L
+I;EUR13;;ESA 2013-2016 (=TS5)/(Zahlwähr. EUR);ESA 13-16 (TS5)
+D;ADP;;Andorianische Peseta;Peseta
+D;AFA;;Afghani (alt);Afghani
+D;BGN;;Bulgarische Neue Lewa;Bulgarische n.L
+D;BHD;;Bahrein-Dinar;Dinar
+D;CZK;;Tschechische Krone;Krone
+D;ECS;;Sucre Ecuador;Sucre
+D;EUR05;;FIX-09-001 /(Zahlwähr. EUR);FIX-09-001
+D;EUR14;;ESA 2014-2019(=TS6)/(Zahlwähr. EUR);ESA 14-19 (TS6)
+D;FJD;;Fidschi-Dollar;Dollar
+D;FRF;;Französische Franken;Franz.Frank
+D;GIP;;Gibralter Pfund;Gibr. Pfund
+D;GMD;;Gambanesische Dalasi;Dalasi
+D;IEP;;Irisches Pfund;Irisches Pfund
+D;MWK;;Malawi-Kwacha;Malawi-Kwacha
+D;NPR;;Nepalesische Rupie;Rupie
+D;OMR;;Rial Omani;Rial Omani
+D;PKR;;Pakistanische Rupie;Rupie
+D;PLN;;Polnische Zloty (neu);Zloty
+D;RUB;;Russische Rubel (neu);Rubel
+D;SBD;;Salomonen Dollar;Salom.Dollar
+D;SHP;;St. Helena Pfund;St.Helena Pfund
+D;SIT;;Slowenische Tolar;Tolar
+D;SRG;;Surinamische Gulden (alt);Sur. Gulden
+D;THB;;Thailand Bhat;Bhat
+D;TMM;;Turkmenische Manat;Manat
+D;UAH;;Ukrainische Griwna;Griwna
+D;USD02;;IDA 14 /(Zahlwähr. USD);IDA 14
+D;USD03;;FAD 11 /(Zahlwähr. USD);FAD 11
+D;USD04;;IDA 15 09-17 /(Zahlwähr. USD);IDA 15 09-17
+D;USD09;;ARM-11-006 /(Zahlwähr. USD);ARM-11-006
+D;YTL;;(Neue türkische Lira/ab 1.1.05-31.12.05);Türkische Lira
+D;ZWD;;Simbabwe Dollar;Simbabwe Dollar
+E;ADP;;Andoran peseta;Peseta
+E;AFN;;Afghani;Afghani
+E;BBD;;Barbados Dollar;Dollar
+E;BMD;;Bermudan Dollar;Bermudan Dollar
+E;EUR08;;Euro;Euro
+E;EUR10;;Euro;Euro
+E;GNF;;Guinea Franc;Guinea Franc
+E;GYD;;Guyanese Dollar;Guyana Dollar
+E;HTG;;Haitian Gourde;Gourde
+E;IQD;;Iraqui Dinar;Dinar
+E;KZT;;Kazakhstani Tenge;Tenge
+E;LUF;;Luxembourgian Franc;Luxembourg Fr.
+E;MGF;;Madagascan Franc;Madagascan Fr.
+E;MVR;;Maldive Rufiyaa;Rufiyaa
+E;NGN;;Nigerian Naira;Naira
+E;NOK;;Norwegian Krone;Norwegian Krone
+E;NOK02;;Norwegian Krone;Norwegian Krone
+E;NPR;;Nepalese Rupee;Rupee
+E;OMR;;Omani Rial;Omani Rial
+E;PGK;;Papua New Guinea Kina;Kina
+E;SRG;;Surinam Guilder;Surinam Guilder
+E;TRL;;Turkish Lira;Lira
+E;USD03;;American Dollar;US Dollar
+E;XOF;;West African CFA franc;Franc
+F;AOA;;Angolan Kwanza;Kwanza
+F;CHF;;Franc suisse;Franc suisse
+F;COP;;Peso colombien;Peso
+F;CVE;;Escudo du Cap-Vert;Escudo
+F;ETB;;Birr d'Ethiopie;Birr
+F;FRF;;Franc français;Franc franc.
+F;GBP;;Livre Sterling;Livre
+F;GBP02;;Livre Sterling;Livre
+F;GWP;;Peso de Guinée;Peso de Guinée
+F;IDR;;Roupie indonésienne;Roupie
+F;IQD;;Dinar irakien;Dinar
+F;ISK;;Couronne islandaise;Couronne
+F;KES;;Schilling du Kenya;Schilling
+F;KMF;;Franc comorien;Franc comorien
+F;KPW;;Won Nord-Coréen;Won N.C.
+F;LTL;;Lita de Lituanie;Lita
+F;MWK;;Kwacha du Malawi;Kwacha/Malawi
+F;PAB;;Balboa de Panama;Balboa
+F;RMB;;RenMinBi chinois;RMB Yuan
+F;SAR;;Riyal saoudien;Riyal
+F;SDG;;Livre soudanaise;Livre
+F;SIT;;Tolar de Slovénie;Tolar
+F;SKK;;Couronne de Slovaquie;Couronne
+F;SUR;;Rouble russe;Rouble
+F;USD04;;Dollar américain;Dollar US
+F;USD08;;Dollar américain;Dollar US
+F;USD09;;Dollar américain;Dollar US
+F;UYP;;Uruguayan New Peso;New Peso
+F;VEB;;Bolivar du Venezuela;Bolivar
+F;XEU;;Unité de devise Européenne (E.C.U.);E.C.U.
+I;TRL;;Lira turca / fuori corso dal 5.1.2005;Lira
+D;ALL;;Albanische Lek;Lek
+D;AMD;;Armenische Dram;Dram
+D;AOA;;Angolesische Kwanza (neu);Kwanza
+D;ARA;;Argentinische Austral;Austral
+D;AZN;;Aserbaidschanische Manat (neu);Manat
+D;BZD;;Belize-Dollar;Dollar
+D;CNY;;Renminbi Yuan;Renminbi Yuan
+D;CUC;;Peso Convertible;Peso Conv.
+D;DZD;;Algerische Dinar;Dinar
+D;EEK;;Estnische Krone;Krone
+D;ERN;;Nakfa;Nakfa
+D;ETB;;Ethäopische Birr;Birr
+D;EUR04;;ESA 2009-2013 /(Zahlwähr. EUR);ESA 2009-2013
+D;EUR08;;FP07-3 EU 2007-2013 /(Zahlwähr. EUR);FP07-3 2007-13
+D;EUR09;;ARM-11-005 /(Zahlwähr. EUR);ARM-11-005
+D;INR;;India Rupie;Rupie
+D;IRR;;Iranische Rial;Rial
+D;KIS;;Kirgisische Som;Som
+D;LAK;;Laotische Kip;Kip
+D;LRD;;Liberianischer Dollar;Liber. Dollar
+D;MMK;;Birmanische Kyat;Kyat
+D;MUR;;Mauritius Rupie;Rupie
+D;NIC;;Nicaraguanische Cordoba (alt);Cordoba
+D;NLG;;Niederländische Gulden;Gulden
+D;NOK02;;ARM-13-008 / (Zahlwähr. NOK);ARM-13-008
+D;PYG;;Paraguayische Guarani;Guarani
+D;QAR;;Katar-Riyal;Riyal
+D;SAR;;Saudi Riyal;Riyal
+D;SDP;;Sudanesisches Pfund (alt);Pfund
+D;TJR;;Tadschikische Rubel (alt);Rubel
+D;TRY;;Türkische Neue Lire ab 01.01.2006;Türk. Neue Lire
+D;UAK;;Ukrainische Karbowanez (alt);Karbowanez
+D;USD;;Amerikanische Dollar;US Dollar
+D;USD05;;MDRI-IDA 09-15 /(Zahlwähr. USD);MDRI-IDA 09-15
+D;USD11;;MDRI-AfDF 2018-2026;MDRI-AfDF 2018-
+D;VEF;;Venezolanische Bolivar Fuerte;Bolivar Fuerte
+E;BND;;Brunei Dollar;Dollar
+E;BRC;;Brazilian Real;Real
+E;CAD;;Canadian Dollar;Canadian Dollar
+E;CUP;;Cuban Peso;Cuban Peso
+E;CVE;;Cape Verde Escudo;Escudo
+E;EUR13;;ESA 2013-2016 (=TS5)/(Zahlwähr. EUR);ESA 13-16 (TS5)
+E;FJD;;Fiji Dollar;Dollar
+E;FKP;;Falkland Pound;Falkland Pound
+E;GBP01;;British Pound;Pound sterling
+E;GHS;;Ghanian Cedi;Cedi
+E;GTQ;;Guatemalan Quetzal;Quetzal
+E;HUF;;Hungarian Forint;Forint
+E;IRR;;Iranian Rial;Rial
+E;JPY;;Japanese Yen;Yen
+E;KIS;;Kirghizstan Som;Som
+E;KPW;;North Korean Won;N. Korean Won
+E;LAK;;Laotian Kip;Kip
+E;LBP;;Lebanese Pound;Lebanese Pound
+E;LYD;;Libyan Dinar;Libyan Dinar
+E;MAD;;Moroccan Dirham;Dirham
+E;MDL;;Moldavian Lei;Lei
+E;MTL;;Maltese Lira;Lira
+E;MZN;;Mozambique Metical;Metical
+E;PAB;;Panamanian Balboa;Balboa
+E;PYG;;Paraguayan Guarani;Guarani
+E;ROL;;Roumanian Lei;Lei
+E;SVC;;El Salvador Colon;Colon
+E;TJR;;Tadzhikistani Ruble;Rouble
+E;UAH;;Ukrainian Hryvnia;Hryvnia
+E;USD09;;American Dollar;US Dollar
+E;XAF;;Central African CFA franc;C.f.A. Franc
+E;ZWR;;Zimbabwean Dollar;Zimbabwe Dollar
+F;AOK;;Angolan Kwanza;Kwanza
+F;AZM;;Manat azerbaïdjanais;Manat
+F;BIF;;Franc burundais;Franc burundais
+F;BND;;Dollar de Brunei;Dollar
+F;BRC;;Brazilian Real;Real
+F;CMG;;Florin antillais;Florin antil.
+F;CUC;;Peso cubain convertible;Cubain Conv.
+F;CZK;;Couronne tchèque;Couronne
+F;EGP;;Livre égyptienne;Livre
+F;ESP;;Peseta espagnole;Peseta
+F;EUR06;;Euro;Euro
+F;EUR13;;ESA 2013-2016 (=TS5)/(Zahlwähr. EUR);ESA 13-16 (TS5)
+F;FJD;;Dollar des Fidji;Dollar
+F;FKP;;Livre des Falklands;Livre/Falkland
+F;GEK;;Kupon géorgien;Kupon
+F;HKD;;Dollar de Hong Kong;Dollar H.K.
+F;IRR;;Rial iranien;Rial
+F;JPY;;Yen japonais;Yen
+F;MTL;;Lire maltaise;Lire
+F;PLZ;;Polish Zloty;Zloty
+F;QAR;;Riyal du Katar;Riyal
+F;RUB;;Rouble russe;Rouble
+F;SHP;;Livre de St. Hélène;Livre St.Hélène
+F;TPE;;Timor Escudo;Timor Escudo
+F;UGS;;Ugandan Shilling;Uganda Shilling
+F;USDN;;HR : Dollar américain avec 5 décimales;Dollar US
+F;ZMW;;Kwacha de Zambie;Kwacha
+F;ZWR;;Dollar  du Zimbabwe;Dollar Zimbabwe
+I;EUR15;;ESA 2014-2019(=TS6)/(Zahlwähr. EUR);ESA 14-19 (TS6)
+I;TRY;;Nuova Lira turca / dal 1.1.2006;
+I;YTL;;Lira turca / 01.01.2005-31.12.2005;
+D;AZM;;Aserbaidschanische Manat;Manat
+D;BAD;;Bosnien-Herzegowinischer Dinar;Dinar
+D;BGL;;Bulgarische Lew;Lew
+D;BIF;;Burundi Frank;Burundi Frank
+D;BND;;Brunei Dollar;Dollar
+D;BYR;;Weissrussische Rubel;Weissrus.Rubel
+D;COP;;Kolumbianische Peso;Peso
+D;DOP;;Dominikanische Peso;Dominik.Peso
+D;ESP;;Spanische Peseten;Peseten
+D;EUR01;;ESA 2009-2011 /(Zahlwähr. EUR);ESA 2009-2011
+D;EUR06;;ARM-09-004 / (Zahlwähr. EUR);ARM-09-004
+D;EUR13;;ESA 2013-2016 (=TS5)/(Zahlwähr. EUR);ESA 13-16 (TS5)
+D;EUR15;;ILL 2014 - 2018;ILL 2014 - 2018
+D;GBP;;Britische Pfund;Pfund
+D;HKD;;Hong Kong dollar;H.K.Dollar
+D;IDR;;Indonesische Rupiah;Rupiah
+D;JPY;;Japanische Yen;Yen
+D;LTL;;Litauische Lita;Lita
+D;MGF;;Madagasker Frank;Madagask. Frank
+D;MKD;;Mazedonischer Denar;Denar
+D;MNT;;Mongolianische Tugrik;Tugrik
+D;MOP;;Macauanische Pataca;Pataca
+D;NOK01;;ARM-09-002 / (Zahlwähr. NOK);ARM-09-002
+D;PLZ;;Polnische Zlotty (alt);Zlotty
+D;RSD;;Serbischer Dinar;Serb. Dinar
+D;RWF;;Ruanda-Frank;Ruanda-Frank
+D;SGD;;Singapur Dollar;Sing.Dollar
+D;SLL;;Leone;Leone
+D;SOS;;Somalia Schilling;Schilling
+D;UYP;;Uruguayischer Neuer Peso;Neuer Peso
+D;YUM;;Jugoslawischer Dinar (alt);Jugoslaw. Dinar
+E;ALL;;Albanian Lek;Lek
+E;ARA;;Argentinian Austral;Austral
+E;ATS;;Austrian Schilling;Shilling
+E;BEF;;Belgian Franc;Belgian Franc
+E;BIF;;Burundi Franc;Burundi Franc
+E;CLP;;Chilean Peso;Peso
+E;DEM;;German Mark;German Mark
+E;EUR04;;Euro;Euro
+E;EUR09;;Euro;Euro
+E;GRD;;Greek Drachma;Drachma
+E;KYD;;Cayman Dollar;Cayman Dollar
+E;LKR;;Sri Lankan Rupee;Sri Lanka Rupee
+E;MZM;;Mozambique Metical;Metical
+E;NZD;;New Zealand Dollars;N.Zeal.Dollars
+E;RMB;;Chinese Renminbi Yuan;Renminbi Yuan
+E;RON;;Roumanian Lei;Lei
+E;RUB;;Russian Rouble;Rouble
+E;RWF;;Rwanda Franc;Rwanda Franc
+E;SAR;;Saudi Riyal;Riyal
+E;SDG;;Sudanese Pound;Pound
+E;SKK;;Slovakian Krona;Krona
+E;THB;;Thailand Bhat;Bhat
+E;TMT;;Turkmenistani Manat;Manat
+E;TPE;;Timor Escudo;Timor Escudo
+E;TTD;;Trinidad and Tobago Dollar;T.+ T. Dollar
+E;USD04;;American Dollar;US Dollar
+E;USD06;;American Dollar;US Dollar
+E;USD08;;American Dollar;US Dollar
+E;YER;;Yemeni Ryal;Yemeni Ryal
+E;ZWD;;Zimbabwean Dollar;Zimbabwe Dollar
+F;ALL;;Lek albanais;Lek
+F;ATS;;Schilling autrichien;Schilling
+F;AUD;;Dollar australien;Dollar aust.
+F;CAD;;Dollar canadien;Dollar can.
+F;DEM;;Deutsche Mark;Deutsche Mark
+F;DOP;;Péso dominicain;Péso dominicain
+F;EEK;;Couronne estonienne;Couronne
+F;EUR12;;Enterpr.Agreem.12 (MS Li)/(Zahlwähr.EUR);Ent.Agree. MS-L
+F;GHC;;Cedi du Ghana;Cedi
+F;GYD;;Dollar de Guyane;Dollar/Guyane
+F;ITL;;Lire italienne;Lire
+F;KRW;;Won Sud-Coréen;Won S-C.
+F;KZT;;Kazakhstani Tenge;Tenge
+F;LRD;;Dollar du Libéria;Dollar/Libéria
+F;MRO;;Ouguiya de Maurétanie;Ouguiya
+F;MXN;;Mexican Peso (new);Peso
+F;MYR;;Rynget malaysien;Rynget
+F;MZN;;Metical du Mozambique;Metical
+F;RON;;Lei de Roumanie;Lei
+F;RWF;;Rwanda Franc;Rwanda Franc
+F;SSP;;Sud livres soudanaises;S.livres sudan.
+F;SVC;;Colon du Salvador;Colon
+F;SYP;;Livre syrienne;Livre syrienne
+F;TRL;;Lire turque;Lire
+F;UAH;;Ukrainian Hryvnia;Hryvnia
+F;VUV;;Vatu de Vanatu;Vatu
+F;XOF;;Franc CFA Bénin;Franc
+F;ZMK;;Kwacha de Zambie;Kwacha
+D;ARS;;Argentinischer Peso;Peso
+D;ATS;;Österreichische Schilling;Schilling
+D;CAD;;Kanadische Dollar;Kan.Dollar
+D;CRC;;Costa-Rica-Colon;C-R Colon
+D;DEM;;Deutsche Mark;Deutsch Mark
+D;EUR03;;ILL Institut v Laue-Langevin 2009-2013;ILL 2009-13
+D;EUR11;;ESA 2011-2015 (=TS4)/(Zahlwähr. EUR);ESA 11-15 (TS4)
+D;GBP01;;ARM-11-007 (Zahlwähr. GBP);ARM-11-007
+D;GNF;;Guinea-Frank;Guinea-Frank
+D;HNL;;Honduranische Lempira;Lempira
+D;HUF;;Ungarischer Forint;Forint
+D;ILS;;Israelische Schekel;Schekel
+D;KGS;;Kirgisistischer Som;Som
+D;KPW;;Nordkoreanische Won;N.K. Won
+D;KZT;;Kazachische Tenge;Tenge
+D;LVL;;Lettländische Lat;Lat
+D;MAD;;Marokkanische Dirham;Dirham
+D;MXP;;Mexikanische Pesos (alt);Pesos
+D;NAD;;Namibia-Dollar;Namibia-Dollar
+D;NOK;;Norwegische Kronen;Norw.Kronen
+D;PHP;;Philippinische Peso;Peso
+D;SDD;;Sudanesischer Dinar (alt);Dinar
+D;SRD;;Surinamische Dollar;Surin. Dollar
+D;SUR;;Russische Rubel (alt);Rubel
+D;TMT;;Turkmenische Manat (neu);Manat
+D;UGS;;Uganda Shilling (alt);Uganda Shilling
+D;USD06;;MDRI-FAD 08-14 /(Zahlwähr. USD);MDRI-FAD 08-14
+D;XOF;;CFA-Frank Benin;Frank
+D;XPF;;CFP-Franc;CFP-Franc
+D;YER;;Jemen-Rial;Jemen-Rial
+E;AMD;;Armenian Dram;Dram
+E;BDT;;Bangladesh Taka;Taka
+E;BHD;;Bahrain Dinar;Dinar
+E;COP;;Columbian Peso;Peso
+E;CYP;;Cyprus Pound;Cyprus Pound
+E;DJF;;Djibouti Franc;Djibouti Franc
+E;EEK;;Estonian Krone;Krona
+E;EGP;;Egyptian Pound;Pound
+E;EUR01;;Euro;Euro
+E;EUR03;;Euro;Euro
+E;GMD;;Gambian Dalasi;Dalasi
+E;HKD;;Hong Kong Dollar;H.K.Dollar
+E;IEP;;Irish Pound;Irish Pound
+E;KES;;Kenyan Shilling;Shilling
+E;LSL;;Lesotho Loti;Loti
+E;LTL;;Lithuanian Lita;Lita
+E;MUR;;Mauritian Rupee;Rupee
+E;NLG;;Dutch Guilder;Guilder
+E;PTE;;Portuguese Escudo;Escudo
+E;SHP;;St.Helena Pound;St.Helena Pound
+E;SRD;;Surinam Guilder;Surinam Guilder
+E;SYP;;Syrian Pound;Syrian Pound
+E;UAK;;Ukrainian Karbowanez;Karbowanez
+E;USD05;;American Dollar;US Dollar
+E;ZMK;;Zambian Kwacha;Kwacha
+F;AMD;;Dram arménien;Dram
+F;ARA;;Argentinian Austral;Austral
+F;BEF;;Franc belge;Franc belge
+F;BMD;;Dollar des Bermudes;Dollar Bermudes
+F;BRL;;Brazilian Real (new);Real
+F;BWP;;Pula du Botswana;Pula
+F;BYR;;Rouble de Biélorussie;Rouble Biélor.
+F;CRC;;Colon du Costa-Rica;Colon C-R
+F;CUP;;Péso cubain;Péso cubain
+F;CYP;;Livre chypriote;Livre chypriote
+F;EUR05;;Euro;Euro
+F;INR;;Roupie indienne;Roupie
+F;JMD;;Dollar jamaïquain;Dollar jamaïq.
+F;LAK;;Kip laotien;Kip
+F;LBP;;Livre libanaise;Livre libanaise
+F;MDL;;Lei de Moldavie;Lei
+F;NGN;;Naira du Niger;Naira
+F;NZD;;Dollar néo-zélandais;Dollar n.-z.
+F;OMR;;Rial Omani;Rial Omani
+F;PEI;;Peruvian Inti;Inti
+F;PTE;;Escudo portugais;Escudo
+F;PYG;;Guarani du Paraguay;Guarani
+F;RUR;;Russian Rubel;Rouble
+F;SCR;;Roupie des Seychelles;Roupie
+F;TMT;;Manat du Turkménistan;Manat
+F;USD03;;Dollar américain;Dollar US
+F;VEF;;Bolivar du Venezuela;Bolivar
+D;AFN;;Afghani (neu);Afghani
+D;BBD;;Barbados-Dollar;Dollar
+D;BTN;;Ngultrum;Ngultrum
+D;CHF;;Schweizerische Franken;Schweiz.Frank
+D;CSK;;Nicht verwenden - alter Währungscode;Nicht verwenden
+D;CVE;;Kap-Verde-Escudo;Escudo
+D;EUR02;;FP07 EU 2007-2013 /(Zahlwähr. EUR);FP07 EU 2007-13
+D;FIM;;Finnische Mark;Finnisch Mark
+D;GEL;;Georgische Laris;Georg. Laris
+D;HRD;;Kroatische Dinar;Dinar
+D;JMD;;Jamaika-Dollar;Jamaika-Dollar
+D;JOD;;Jordan-Dinar;Jordan-Dinar
+D;KHR;;Kambodschanische Riel;Riel
+D;KRW;;Südkoreanische Won;S.K. Won
+D;KYD;;Kaiman-Dollar;Kaiman-Dollar
+D;LKR;;Sri-Lanka-Rupie;Sri-Lanka-Rupie
+D;MRO;;Mauretanische Ouguiya;Ouguiya
+D;PAB;;Panamaische Balboa;Balboa
+D;RON;;Neue Rumänische Lei;Neue Lei
+D;SSP;;Süd Sudanesische Pfund;S. Sudan Pfund
+D;TND;;Tunesischer Dinar;Dinar
+D;USD10;;AfDF-13 2014-2023;AfDF-13 2014-23
+D;UYU;;Uruguayischer Peso;Urugu. Peso
+D;UZS;;Usbekistan-Sum;Usbekistan-Sum
+D;WST;;Samoanische Tala;Tala
+D;XEU;;Europäische Währungs Einheit (E.C.U.);E.C.U.
+D;ZMW;;Zambianische Kwacha;Kwacha
+E;AFA;;Afghani;Afghani
+E;AOA;;Angolan Kwanza;Kwanza
+E;BWP;;Botswana Pula;Pula
+E;CRC;;Costa Rica Colon;Cost.Rica Colon
+E;CUC;;Cuban Convertible Peso;Cuban Conv.
+E;ETB;;Ethiopian Birr;Birr
+E;EUR;;Euro;Euro
+E;EUR15;;ESA 2014-2019(=TS6)/(Zahlwähr. EUR);ESA 14-19 (TS6)
+E;FIM;;Finnish Mark;Finnish Mark
+E;FRF;;French Franc;French Franc
+E;GBP02;;British Pound;Pound sterling
+E;GEK;;Georgian Kupon;Kupon
+E;JOD;;Jordanian Dinar;Jordanian Dinar
+E;KHR;;Cambodian Riel;Riel
+E;NOK01;;Norwegian Krone;Norwegian Krone
+E;PLZ;;Polish Zloty;Zloty
+E;QAR;;Qatar Riyal;Riyal
+E;SIT;;Slovenian Tolar;Tolar
+E;STD;;Sao Tome / Principe Dobra;Dobra
+E;TZS;;Tanzanian Shilling;Shilling
+E;UGS;;Ugandan Shilling;Uganda Shilling
+E;USD01;;American Dollar;US Dollar
+E;USD02;;American Dollar;US Dollar
+E;USD07;;American Dollar;US Dollar
+E;UYP;;Uruguayan New Peso;New Peso
+E;VEB;;Venezuelan Bolivar;Bolivar
+E;XCD;;East Carribean Dollar;Dollar
+F;ANG;;Florin antillais;Florin antil.
+F;CLP;;Peso chilien;Peso
+F;DKK;;Couronne danoise;Couronne dan.
+F;DZD;;Dinar algérien;Dinar
+F;ECS;;Ecuador Sucre;Sucre
+F;EUR08;;Euro;Euro
+F;GHS;;Cedi du Ghana;Cedi
+F;HNL;;Lempira du Honduras;Lempira
+F;HUF;;Forint hongrois;Forint
+F;KYD;;Dollar Kaiman;Dollar Kaiman
+F;LUF;;Luxembourgian Franc;Luxembourg Fr.
+F;MNT;;Tugrik de Mongolie;Tugrik
+F;MOP;;Pataca de Macao;Pataca
+F;NIC;;Cordoba du Nicaragua;Cordoba
+F;NLG;;Gulden hollandais;Gulden
+F;NOK;;Couronne norvégienne;Couronne norv.
+F;NOK01;;Couronne norvégienne;Couronne norv.
+F;NPR;;Roupie népalaise;Roupie
+F;PHP;;Peso des Philippines;Peso
+F;RSD;;Dinar serbe;Serb. Dinar
+F;SEK;;Couronne suédoise;Couronne suéd.
+F;SOS;;Schilling somalien;Schilling
+F;TMM;;Manat du Turkménistan;Manat
+F;TTD;;Dollar de Trinidad et Tobago;Dollar T.etT.
+F;TWD;;Nouv. Dollar de Taiwan;Dollar
+F;USD07;;Dollar américain;Dollar US
+F;ZAR;;Rand sud-africain;Rand
+I;CUC;;Peso cubano convertibile;Cubano Conv.
+I;EUR14;;ESA 2014-2019(=TS6)/(Zahlwähr. EUR);ESA 14-19 (TS6)
+D;AED;;Vereinigte Arabische Emirate Dirham;Dirham
+D;ANG;;Antilianische Gulden;Ant. Gulden
+D;AOK;;Angolesische Kwanza (alt);Kwanza
+D;AUD;;Australien Dollar;Austr.Dollar
+D;BOB;;Boliviano;Boliviano
+D;CDF;;Kongo-Franc;Kongo-Franc
+D;CLP;;Chilenische Pesos;Pesos
+D;EUR;;Euro;Euro
+D;EUR07;;ESA 2011-2015 (=TS3)/(Zahlwähr. EUR);ESA 11-15 (TS3)
+D;GRD;;Griechische Drachme;Drachme
+D;GWP;;Guinea-Peso;Guinea-Peso
+D;KES;;Kenianische Schilling;Schilling
+D;KMF;;Komoren-Frank;Komoren-Frank
+D;LBP;;Libanesisches Pfund;Liban. Pfund
+D;MDL;;Moldavische Lei;Lei
+D;MTL;;Maltesische Lira;Lira
+D;MXN;;Mexikanische Pesos (Nuevo);Pesos
+D;NGN;;Nigerianische Naira;Naira
+D;NIO;;Nicaraguanische Cordoba (neu);Cordoba
+D;RMB;;Chinesische RenMinBi Yuan;RMB Yuan
+D;SCR;;Seychellen Rupie;Rupie
+D;SYP;;Syrisches Pfund;Syrisches Pfund
+D;TRL;;(Türkische Lira/ungültig ab 05.01.2005);Lira
+D;USD12;;MDRI-IDA 2017-2025;MDRI-IDA 17-25
+D;USDN;;HR: Amerikanische Dollar m. 5 Nachkomma.;US Dollar
+D;XAF;;CFA-Frank Gabun;CFA-Frank
+D;ZAR;;Südafrikanische Rand;Rand
+E;AOK;;Angolan Kwanza;Kwanza
+E;BAD;;Bosnia-Herzogovinian Dinar;Dinar
+E;BRL;;Brazilian Real (new);Real
+E;BSD;;Bahaman Dollar;Dollar
+E;BYR;;Belorussian Ruble;Beloruss.Ruble
+E;CHF;;Swiss Franc;Swiss Franc
+E;CMG;;West Indian Guilder;W.Ind.Guilder
+E;DKK;;Danish Krone;Danish Krone
+E;ECS;;Ecuador Sucre;Sucre
+E;EUR02;;Euro;Euro
+E;GBP;;British Pound;Pound sterling
+E;HNL;;Honduran Lempira;Lempira
+E;INR;;Indian Rupee;Rupee
+E;MWK;;Malawi Kwacha;Malawi Kwacha
+E;MXP;;Mexican Peso (old);Peso
+E;MYR;;Malaysian Ringgit;Ringgit
+E;PKR;;Pakistani Rupee;Rupee
+E;SBD;;Solomon Islands Dollar;Sol.Isl.Dollar
+E;SCR;;Seychelles Rupee;Rupee
+E;SGD;;Singapore Dollar;Sing.Dollar
+E;SZL;;Swaziland Lilangeni;Lilangeni
+E;TMM;;Turkmenistani Manat;Manat
+E;TOP;;Tongan Pa'anga;Pa'anga
