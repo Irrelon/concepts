@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>POC</title>
+  </head>
+  <body>
+      <h2>Forerunnerdb</h2>
+      
+      <!-- Define the item template -->
+      <script type="text/x-jsrender" id="itemTemplate">
+        <li data-link="id{:year}">
+          <span>{^{:year}}</span>
+          <span>
+            {^{for accounts}}
+              {^{:name}}:{^{:value}}
+            {^{/for}}
+          </span>
+        </li>
+      </script>
+      
+      <ul id="display"></ul>
+      
+      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src="js/fdb-all.min.js"></script>
+      <script src="js/fdb-autobind.min.js"></script>
+      <script src="js/app.js"></script>
+  </body>
+</html>
