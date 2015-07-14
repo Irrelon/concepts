@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Browser local database by efvis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Browser local database</h1>
+      <h2 class="project-tagline">Store your data on your browser</h2>
+      <a href="https://github.com/efvis/concepts" class="btn">View on GitHub</a>
+      <a href="https://github.com/efvis/concepts/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/efvis/concepts/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      
+      
+<h3>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Test the prototypes</h3>
+
+<ul>
+<li><a href="../pouchdb/index.html" target="_blank">Pouchdb test page</a></li>
+<li><a href="../forerunnerdb/index.html" target="_blank">Forerunnerdb test page</a></li>
+<li><a href="../lokijs/index.html" target="_blank">lokijs test page</a></li>
+</ul>
+
+      <h3>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>About the project</h3>
+
+<p>The goal of this project is to define the way to use a browser database. It exists a lot of javascript libraries to implement a browser database, but we just will tests to most used or followed.</p>
+
+<h3>
+<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Technologies</h3>
+
+<p>All libraries (tested), have  the possibility to store (adapter) the database as an IndexedDB or WebSQL. The Browser compatibility will be directly linked with the choice of the adapter:</p>
+
+<ul>
+<li><strong>Indexeddb</strong> : Is implemented yet for all populare browser. But some functionnalities are not compatible with IE (<a href="http://caniuse.com/#feat=indexeddb" target="_blank">caniuse</a>)</li>
+<li><strong>WebSQL</strong> : Is not implement for Firefox and IE (<a href="http://caniuse.com/#feat=web%20sql" target="_blank">caniuse</a>)</li>
+</ul>
+
+<p>Pouchdb, Forerunnerdb and lokijs are using by default the Indexeddb as default adapter.</p>
+
+<h3>
+<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tests</h3>
+
+<p>For the test of the javascript database, we perform the following actions:</p>
+<ul>
+<li>loading simple data</li>
+<li>saving the data into an indexeddb</li>
+<li>displaying the data directly on the browser</li>
+</ul>
+
+<h3>
+<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Results</h3>
+
+<ul>
+<li>For the manipulation of the database, all libraries have the same functionnalities.</li>
+<li>Forerunnerdb has modules (data binding and templating) for the displaying of the data like table, grid or graphs. But this library need other external library (jQuery, etc...; depending of the used module)</li>
+<li>About the documentation, Pouchdb is the really well documented. The others libraries have only a minimalist documentation.</li>
+<li>Pouchdb is asynchronous</li>
+<li>Performance -> need to test</li>
+</ul>
+
+<h3>
+<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Browser database frameworks</h3>
+
+<h4>Browser compatibility</h4>
+
+<table>
+  <tr>
+    <th>Framework</th>
+    <th>Firefox</th>
+    <th>Chrome</th>
+    <th>Safari</th>
+    <th>IE</th>
+    <th>Opera</th>
+    <th>Android</th>
+    <th>iOS</th>
+    <th>Windows Phone</th>
+    <th>Blackberry</th>
+    <th>Phonegap/Apache cordova</th>
+  </tr>
+  <tr>
+    <td>Pouchdb</td>
+    <td>29</td>
+    <td>30</td>
+    <td>5</td>
+    <td>10</td>
+    <td>21</td>
+    <td>4.0</td>
+    <td>7.1</td>
+    <td>8</td>
+    <td>?</td>
+    <td>?</td>
+  </tr>
+  <tr>
+    <td>Forerunnerdb</td>
+    <td>18</td>
+    <td>23</td>
+    <td>4</td>
+    <td>8</td>
+    <td>4.0</td>
+    <td>4+ / chrome 32</td>
+    <td>7</td>
+    <td>10</td>
+    <td>7</td>
+    <td>1.2.0</td>
+  </tr>
+  <tr>
+    <td>Lokijs</td>
+    <td>OK, version not specified</td>
+    <td>OK, version not specified</td>
+    <td>OK, version not specified</td>
+    <td>OK, version not specified</td>
+    <td>OK, version not specified</td>
+    <td>OK, version not specified</td>
+    <td>OK, version not specified</td>
+    <td>OK, version not specified</td>
+    <td>?</td>
+    <td>?</td>
+  </tr>
+</table>
+
+<h4> Comparison </h4>
+
+<p>Why choosing Forerunner?</p>
+<ul>
+  <li>Modules for displaying data in templates</li>
+  <li>Data binding</li>
+  <li>Displaying graphs, grid and table very easily</li>
+</ul>
+
+<p>Why choosing Lokijs?</p>
+<ul>
+  <li>View functionnalities for displaying complex request</li>
+</ul>
+
+<p>Why choosing Pouchdb?</p>
+<ul>
+  <li><a href="https://github.com/pouchdb/pouchdb" target="_blank">4'571 stars on Github</a> -> Big community</li>
+  <li>Wiki with a lot of How-to articles</li>
+  <li>Is asynchronous</li>
+  <li>Well documented</li>
+  <li>Bulk operations</li>
+  <li>A lot of tools for the development</li>
+  <li>Synchronization between local and remote database easier</li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/efvis/concepts">Concepts</a> is maintained by <a href="https://github.com/efvis">efvis</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
+

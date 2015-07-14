@@ -1,7 +1,7 @@
 //browser database (local)
 var db = new PouchDB('databasePouch');
 
-loadRandomDocument(5000);
+loadRandomDocument(500);
 
 readDocuments();
 
