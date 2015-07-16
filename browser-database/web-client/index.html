@@ -65,8 +65,76 @@
 <li>Forerunnerdb has modules (data binding and templating) for the displaying of the data like table, grid or graphs. But this library need other external library (jQuery, etc...; depending of the used module)</li>
 <li>About the documentation, Pouchdb is the really well documented. The others libraries have only a minimalist documentation.</li>
 <li>Pouchdb is asynchronous</li>
-<li>Performance -> need to test</li>
+<li>Performances: Better performance with PouchDB and Lokijs for querying/displaying data</li>
 </ul>
+
+<h3>
+<a id="framework-performance" class="anchor" href="#framework-performance" aria-hidden="true"><span class="octicon octicon-link"></span></a>Frameworks performances</h3>
+
+<h4>Database creation</h4>
+<table>
+  <thead>
+    <tr>
+      <th>framework</th>
+      <th>100 objects</th>
+      <th>1'000 objects</th>
+      <th>10'000 objects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PouchDB</th>
+      <th>0.186 ms</th>
+      <th>0.138 ms</th>
+      <th>0.207 ms</th>
+    </tr>
+    <tr>
+      <th>ForerunnerDB</th>
+      <th>4.532 ms</th>
+      <th>4.328 ms</th>
+      <th>8.002 ms</th>
+    </tr>
+    <tr>
+      <th>Lokijs</th>
+      <th>0.159 ms</th>
+      <th>0.224 ms</th>
+      <th>0.168 ms</th>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Querying and displaying data</h4>
+<table>
+  <thead>
+    <tr>
+      <th>framework</th>
+      <th>100 objects</th>
+      <th>1'000 objects</th>
+      <th>10'000 objects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PouchDB</th>
+      <th>34.499 ms</th>
+      <th>251.338 ms</th>
+      <th>1172.58 ms</th>
+    </tr>
+    <tr>
+      <th>ForerunnerDB</th>
+      <th>253.263 ms</th>
+      <th>762.929 ms</th>
+      <th>18320.54 ms</th>
+    </tr>
+    <tr>
+      <th>Lokijs</th>
+      <th>1.423 ms</th>
+      <th>2.687 ms</th>
+      <th>69.234 ms</th>
+    </tr>
+  </tbody>
+</table>
+
 
 <h3>
 <a id="browser-comparison" class="anchor" href="#browser-comparison" aria-hidden="true"><span class="octicon octicon-link"></span></a>Browser database frameworks</h3>
