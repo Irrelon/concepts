@@ -1,0 +1,1336 @@
+[
+  {
+    "_id": "y0",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 9520
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 3958
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 1150
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 7383
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": -622
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 3553
+      }
+    ]
+  },
+  {
+    "_id": "y1",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 6984
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 8403
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 7830
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 1467
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 4554
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 8267
+      }
+    ]
+  },
+  {
+    "_id": "y2",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": -1074
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 3962
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 4264
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 4946
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 4808
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 952
+      }
+    ]
+  },
+  {
+    "_id": "y3",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 1607
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 4925
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 924
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 3828
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 195
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 9385
+      }
+    ]
+  },
+  {
+    "_id": "y4",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": -675
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 1303
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 8168
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 9883
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": -94
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 7359
+      }
+    ]
+  },
+  {
+    "_id": "y5",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 649
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 5108
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 2052
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 3752
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": -1573
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 7634
+      }
+    ]
+  },
+  {
+    "_id": "y6",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 8330
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 5356
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 3647
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 338
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 7722
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 4126
+      }
+    ]
+  },
+  {
+    "_id": "y7",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 4032
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": -1873
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 5428
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 5588
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 1013
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 9185
+      }
+    ]
+  },
+  {
+    "_id": "y8",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 4335
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 21
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 5202
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 8891
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 9549
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 1161
+      }
+    ]
+  },
+  {
+    "_id": "y9",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 3004
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 1203
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 4524
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 6766
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 712
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 624
+      }
+    ]
+  },
+  {
+    "_id": "y10",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 3688
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 9850
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 3218
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 1016
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": -741
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 1801
+      }
+    ]
+  },
+  {
+    "_id": "y11",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 3236
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 1640
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": -196
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 7613
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 2254
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 6575
+      }
+    ]
+  },
+  {
+    "_id": "y12",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 9435
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 8963
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": -1937
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 9901
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 2060
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 9633
+      }
+    ]
+  },
+  {
+    "_id": "y13",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 525
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 5993
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 9644
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 7691
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 7354
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 954
+      }
+    ]
+  },
+  {
+    "_id": "y14",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 3828
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": -1893
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 5521
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 1484
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 7647
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 4775
+      }
+    ]
+  },
+  {
+    "_id": "y15",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 4143
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 1552
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": -615
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": -91
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": -612
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 4279
+      }
+    ]
+  },
+  {
+    "_id": "y16",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 1703
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 4468
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 7979
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 5115
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": -383
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 9849
+      }
+    ]
+  },
+  {
+    "_id": "y17",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 6290
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 5162
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 1007
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 9328
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 1514
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 8027
+      }
+    ]
+  },
+  {
+    "_id": "y18",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": -131
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": -34
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": -1239
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 1029
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 6528
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 1845
+      }
+    ]
+  },
+  {
+    "_id": "y19",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 172
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 2069
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 724
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 7827
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 3231
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": -1840
+      }
+    ]
+  },
+  {
+    "_id": "y20",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 4856
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 2145
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 7392
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 2118
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": -517
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 2309
+      }
+    ]
+  },
+  {
+    "_id": "y21",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 5358
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 5607
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 5037
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": -127
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 8474
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 2813
+      }
+    ]
+  },
+  {
+    "_id": "y22",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 3864
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 3089
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": -112
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 5953
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 3162
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 4322
+      }
+    ]
+  },
+  {
+    "_id": "y23",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 9363
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 293
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": -945
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 2455
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 5148
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": -1049
+      }
+    ]
+  },
+  {
+    "_id": "y24",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 8094
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 9570
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": -97
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 2450
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 244
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 2477
+      }
+    ]
+  },
+  {
+    "_id": "y25",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 5642
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": -1190
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 1459
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 9511
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": -271
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 8907
+      }
+    ]
+  },
+  {
+    "_id": "y26",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 3962
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 1612
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 5494
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 3747
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": -366
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 4501
+      }
+    ]
+  },
+  {
+    "_id": "y27",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 7057
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 521
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 1353
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 3174
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 7044
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 7853
+      }
+    ]
+  },
+  {
+    "_id": "y28",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 3671
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 2713
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": -1223
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 9705
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": -137
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": -518
+      }
+    ]
+  },
+  {
+    "_id": "y29",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": -723
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 7519
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 2591
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 410
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 3481
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 7917
+      }
+    ]
+  },
+  {
+    "_id": "y30",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 4973
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 5721
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 8493
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 8466
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 3923
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 897
+      }
+    ]
+  },
+  {
+    "_id": "y31",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 4851
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 6460
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 7478
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 6960
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 5699
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 173
+      }
+    ]
+  },
+  {
+    "_id": "y32",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 4335
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 843
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 8451
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 3804
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": -1519
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 9559
+      }
+    ]
+  },
+  {
+    "_id": "y33",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 8574
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 1435
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": -286
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": -30
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 4747
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 6316
+      }
+    ]
+  },
+  {
+    "_id": "y34",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 1254
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 4619
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 4202
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": -1347
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 3770
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 3632
+      }
+    ]
+  },
+  {
+    "_id": "y35",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 8489
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 5164
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 6435
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 2575
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 891
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 8931
+      }
+    ]
+  },
+  {
+    "_id": "y36",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 2668
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 1986
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": -722
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 2810
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": -1393
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 9341
+      }
+    ]
+  },
+  {
+    "_id": "y37",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 1856
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 5824
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": -1175
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": -476
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 5614
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 2282
+      }
+    ]
+  },
+  {
+    "_id": "y38",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": -1562
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": -1989
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 4204
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 7055
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 5522
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": -246
+      }
+    ]
+  },
+  {
+    "_id": "y39",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 798
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": -953
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": -1969
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 7525
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 9797
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 8076
+      }
+    ]
+  },
+  {
+    "_id": "y40",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 7620
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 6681
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 3622
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 5618
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 739
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": -991
+      }
+    ]
+  },
+  {
+    "_id": "y41",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 1928
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": -969
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 2422
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 5494
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 3969
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 9428
+      }
+    ]
+  },
+  {
+    "_id": "y42",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 2793
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 973
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 3316
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 6216
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 8205
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 9418
+      }
+    ]
+  },
+  {
+    "_id": "y43",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 1176
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 9683
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": -1740
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": -1605
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 4379
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 3990
+      }
+    ]
+  },
+  {
+    "_id": "y44",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 274
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": -1069
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 4805
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": -128
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 601
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 2084
+      }
+    ]
+  },
+  {
+    "_id": "y45",
+    "accounts": [
+      {
+        "name": "Ordentliches Finanzierungsergebnis",
+        "value": 4255
+      },
+      {
+        "name": "Ordentliche Einnahmen",
+        "value": 5264
+      },
+      {
+        "name": "Ordentliche Ausgaben",
+        "value": 3323
+      },
+      {
+        "name": "Finanzierungsergebnis",
+        "value": 7452
+      },
+      {
+        "name": "Ausserordentliche Einnahmen",
+        "value": 8601
+      },
+      {
+        "name": "Ausserordentliche Ausgaben",
+        "value": 9462
+      }
+    ]
+  }
+]
