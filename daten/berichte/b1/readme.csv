@@ -1,0 +1,126 @@
+1. Generelle Infos
+
+Das an der Ausgabe 1 angelehnte Beispiel besteht aus 8 Dateien, welche folgende Informationen ausgeben:
+
+B1_RE	-> Rechnungswerte seit 1990 bis zur aktuellen Rechnung
+B1_VE	-> Voranschlags- und Finanzplanwerte für die kommenden Perioden
+B1_TEXT	-> Beschreibung/Stammdatentexte/Bezeichnung der Attribute (bspw. Konten, Kredite, Stammhauskonten)
+B1_HIER	->	Aufbau der Anzeige-Hierarchie als Eltern-Kind-Beziehung
+
+Die Dateien mit dem Präfix "S_" enthalten Metadaten zum Aufbau der jeweiligen Dateien.
+
+
+2. Rechnungswerte (B1_RE.csv)
+
+Folgende Informationen werden ausgegeben:
+
+	Das Plätzhalter "tbd" in der Präfix-Spalte muss noch definiert werden respektive entschieden werden, ob dieser benötigt wird. Für Berichte auf Kreditebene ist dieser "BEGR", und damit eindeutig erkennbar für die Beziehung zu Kreditbegründungen
+
+	Das Geschäftsjahr 
+	
+	Die Stammhauskonten (in diesem fiktiven Beispiel mit den Schlüssel R2, R4 und R7)
+	
+	Der Rechnungsetrag in absoluten Werten - es findet keine Skalierung statt
+	
+	Die Währung des Rechnungsbetrages
+
+	
+3. Voranschlag/Finanzplan (B1_VE.csv)
+
+Folgende Informationen werden ausgegeben:
+
+	Das Plätzhalter "tbd" in der Präfix-Spalte muss noch definiert werden respektive entschieden werden, ob dieser benötigt wird. Für Berichte auf Kreditebene ist dieser "BEGR", und damit eindeutig erkennbar für die Beziehung zu Kreditbegründungen
+	
+	Im Referenzjahr wird das aktuelle Jahr ausgegeben. Dadurch kann eine Zuordnung zu VA/FP1/FP2 und FP3 gemacht werden.
+	
+	Die Stammhauskonten (in diesem fiktiven Beispiel mit den Schlüssel R2, R4 und R7)
+	
+	VA-Betrag in absoluten Werten - es findet keine Skalierung statt
+	
+	Währung des VA Betrags
+	
+	FP1-Betrag in absoluten Werten - es findet keine Skalierung statt
+	
+	Währung des FP1 Betrags
+	
+	FP2-Betrag in absoluten Werten - es findet keine Skalierung statt
+	
+	Währung des FP2 Betrags
+	
+	FP3-Betrag in absoluten Werten - es findet keine Skalierung statt
+	
+	Währung des FP3 Betrags
+	
+	
+4. Stammdatentexte (B1_TEXT.csv)
+
+Folgende Informationen werden ausgegeben:
+
+	Schlüssel des Stammhauskontos
+	
+	Sprache des Stammdatentextes
+	
+	Gültigkeitsdatum rechte Grenze ("Bis-Datum") [max. Datum 31.12.9999]*
+	
+	Gültigkeitsdatum linke Grenze ("Von-Datum") [min. Datum 01.01.1000]*
+	
+	Stamdatentext: in diesem Fall Beszeichnung des Stammhauskontos in den verschiedenen Sprachen mit alter und neuer Bezeichnung (Endet auf "_N").
+	
+	
+5. Hierarchie (B1_HIER.csv)
+
+Folgende Informationen werden ausgegeben:
+
+	ID des Hierarchie-Elemnts
+	
+	Art des Elements (Knoten oder bebuchbares Objekt (Konto,Kredit,..))
+	
+	Technischer Name des Knotens
+	
+	Linkkennzeichen für einen Hierarchieknoten
+	
+	ID des Eltern-Elements
+	
+	ID des ersten Kind-Elemnts
+	
+	ID des nächsten Elemtnes auf selber Stufe
+	
+	Sprachschlüssel für Hierarchieknotenbezeichnung
+	
+	Hierarchieknotenbezeichnung Kurz-Text (max. 20 Zeichen)
+	
+	Hierarchieknotenbezeichnung Mittel-Text (max. 40 Zeichen)
+	
+	Hierarchieknotenbezeichnung Lang-Text (max. 60 Zeichen)
+	
+	Schlüssel des Stammhauskontenplans
+
+	Schlüssel des Stammhauskontos
+	
+	Technischer Name der Hierarchie
+	
+	Gültigkeitsdatum rechte Grenze ("Bis-Datum") [max. Datum 31.12.9999]*
+	
+	Gültigkeitsdatum linke Grenze ("Von-Datum") [min. Datum 01.01.1000]*
+	
+	Objekt-ID: Wird bei Ausprägungsänderung inkrementiert. (1 für erste Ausprägung, 2 für zweite Ausprägung über die Zeit hinweg.)
+	
+	
+6. Metadaten-csv ("S_*.csv")	
+
+Folgende Informationen werden ausgegeben:
+	
+	DTP -> GUID des Datenabzugs
+	
+	Zeitstempe des Datenexportes
+	
+	Pfad zur Daten-Datei, auf die sich die Metadaten-Datei bezieht
+	
+	Nummer und Bezeichnung der Spalten, sowie Definition der Datentypen und deren Länge
+	
+
+	
+* = Im Falle von Zeitabhängigkeit in SAP gilt: Wenn ein Wert keine Veränderung hat, ist die Gültigkeit 01.01.1000-31.12.9999. 
+    Ändert sich die Ausprägung am Änderungsdatum, wird das Interval unterteilt in 
+      	01.01.1000 - (Änderungsdatum-1) mit der alten Ausprägung 
+      	Änderungsdatum - 31.12.9999 mit der neuen Ausprägung
