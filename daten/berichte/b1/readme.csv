@@ -9,6 +9,7 @@ B1_HIER	->	Aufbau der Anzeige-Hierarchie als Eltern-Kind-Beziehung
 
 Die Dateien mit dem Präfix "S_" enthalten Metadaten zum Aufbau der jeweiligen Dateien.
 
+Zur besseren Lesbarkeit wurden in die Spaltenbezeichnungen aus den "_S"-Metadate-Dateien in die Daten-Dateien eingefügt. Dies wird später bei der produktiven Entwicklung nicht der Fall sein.
 
 2. Rechnungswerte (B1_RE.csv)
 
@@ -120,7 +121,6 @@ Folgende Informationen werden ausgegeben:
 	
 
 	
-* = Im Falle von Zeitabhängigkeit in SAP gilt: Wenn ein Wert keine Veränderung hat, ist die Gültigkeit 01.01.1000-31.12.9999. 
-    Ändert sich die Ausprägung am Änderungsdatum, wird das Interval unterteilt in 
-      	01.01.1000 - (Änderungsdatum-1) mit der alten Ausprägung 
-      	Änderungsdatum - 31.12.9999 mit der neuen Ausprägung
+* = Wenn ein Wert keine Veränderung hat, ist die Gültigkeit 01.01.1000-31.12.9999. Ändert sich die Ausprägung am Änderungsdatum, wird das Interval unterteilt in 
+	01.01.1000 - (Änderungsdatum-1) mit der alten Ausprägung 
+	Änderungsdatum - 31.12.9999 mit der neuen Ausprägung
