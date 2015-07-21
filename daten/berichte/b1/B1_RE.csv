@@ -1,6 +1,7 @@
-tbd;2014;R2;200;CHF
-tbd;2014;R4;300;CHF
-tbd;2014;R7;150;CHF
-tbd;2013;R2;300;CHF
-tbd;2013;R4;400;CHF
-tbd;2013;R7;200;CHF
+Präfix,Geschäftsjahr,SHK,Rechnung,Rechnung Währung
+tbd,2014,R2,200,CHF
+tbd,2014,R4,300,CHF
+tbd,2014,R7,150,CHF
+tbd,2013,R2,300,CHF
+tbd,2013,R4,400,CHF
+tbd,2013,R7,200,CHF
