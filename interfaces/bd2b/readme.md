@@ -7,15 +7,15 @@
 
 ## CSS Classes
 
-   cmt = commentary
-   amtnr = Amt Nr
-   amt = Amt
-   br = Buchungsrubrik
-   ktogrpN = Kontogruppe N
-   ktoln = Konto Line
-   ktonr = Konto Nummer
-   kton = Konto Name
-   ktobtr = Konto Betrag
-   cmtdsc = Commentary description
-   detail = Detail
-   detailbtr = Detail Betrag
+      cmt = commentary
+      amtnr = Amt Nr
+      amt = Amt
+      br = Buchungsrubrik
+      ktogrpN = Kontogruppe N
+      ktoln = Konto Line
+      ktonr = Konto Nummer
+      kton = Konto Name
+      ktobtr = Konto Betrag
+      cmtdsc = Commentary description
+      detail = Detail
+      detailbtr = Detail Betrag
