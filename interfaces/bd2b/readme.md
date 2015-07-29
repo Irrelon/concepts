@@ -7,15 +7,17 @@
 
 ## CSS Classes
 
-      cmt = commentary
+      cmt = commentary => 
       amtnr = Amt Nr
       amt = Amt
       br = Buchungsrubrik
       ktogrpN = Kontogruppe N
+       z.B. ktogr1, ktogr2,...
+      
       ktoln = Konto Line
       ktonr = Konto Nummer
       kton = Konto Name
       ktobtr = Konto Betrag
       cmtdsc = Commentary description
-      detail = Detail
+      detail, dtln = Detail
       detailbtr = Detail Betrag
