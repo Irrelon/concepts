@@ -102,6 +102,9 @@ range-slider .range-slider-tooltip:after {
 .column-right .strate-panel:after {
   content: initial;
 }
+.range-slider-tooltip {
+  pointer-events: none;
+}
 .nowrap {
   white-space: nowrap;
 }
