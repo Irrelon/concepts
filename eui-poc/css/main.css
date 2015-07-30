@@ -1,0 +1,107 @@
+/* Cover background image */
+.cover-layout {
+  background-image: url('../images/cover-background.jpg');
+}
+.navbar-controls .user-picture {
+  border: none;
+  margin-top: -6px;
+  height: 42px;
+  width: 42px;
+  vertical-align: middle;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.navbar-controls .user-picture.control-icon {
+  padding: 5px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+.spinner {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  color: #d4d4d4;
+  background-color: #ffffff;
+  z-index: 100;
+  opacity: 0.9;
+}
+.spinner span {
+  position: relative;
+  top: 50%;
+  margin-top: -25px;
+}
+.spacer-top {
+  margin-top: 30px;
+}
+.column-left:before,
+.column-main:before {
+  display: none;
+}
+.panel-title a {
+  display: block;
+}
+range-slider {
+  display: block;
+  margin-top: 30px;
+  padding: 0 30px;
+  padding-top: 40px;
+}
+range-slider .ui-slider-handle {
+  position: relative;
+}
+range-slider .ui-slider-handle:focus {
+  outline: 0;
+}
+range-slider .range-slider-tooltip {
+  position: absolute;
+  left: -22px;
+  bottom: 30px;
+  width: 60px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+}
+range-slider .range-slider-tooltip:after {
+  display: block;
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: calc(50% - 6px);
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid rgba(0, 0, 0, 0.8);
+}
+.radio-inline .radio {
+  display: inline-block;
+  margin-right: 15px;
+}
+.centered-layout {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-breath-bottom {
+  margin-bottom: 96px;
+}
+.section-subtitle {
+  margin-bottom: 32px;
+}
+.panel-heading .navbar-controls > li > a {
+  padding: 6px;
+}
+.column-right .strate-panel:before,
+.column-right .strate-panel:after {
+  content: initial;
+}
+.nowrap {
+  white-space: nowrap;
+}
