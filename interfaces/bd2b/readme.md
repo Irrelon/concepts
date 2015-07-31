@@ -10,8 +10,8 @@
       cmt = commentary => 
       amtnr = Amt Nr => Verwaltungseinheit Nummer, venr
       amt = Amt => Verwaltungseinheit
-      br = Buchungsrubrik
-      ktogrpN = Kontogruppe N => Kreditgruppe
+      br = Buchungsrubrik => Entfällt
+      ktogrpN = Kontogruppe N => Kreditstufe (Ertrag/Einnahmen/Aufwand/Ausgaben)
        z.B. ktogr1, ktogr2,...
       
       ktoln = Konto Line => Kredit Line
