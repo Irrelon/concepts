@@ -1,143 +1,232 @@
 {
-	"application": {
-		"shortName": "OR",
-		"longName": "EFV-EIS",
-		"description": "EFV-EIS is a technical prototype concept in the scope of the electronic information system for the Swiss federal budget."
-	},
-	"states": {
-		"home": {
-			"title": "Accueil",
-			"description": "Description for the Home state page."
-		},
-		"auth": {
-			"title": "Sign in",
-			"login": {
-				"title": "Login",
-				"submit": "Log in",
-				"password-lost": "Forgot password?"
-			},
-			"register": {
-				"title": "New to {{title}}? Sign up!",
-				"submit": "Register"
-			}
-		},
-        "charts": {
-          "title": "[fr]Charts"
+  "application": {
+    "shortName": "EIS",
+    "longName": "EFV-EIS",
+    "description": "Electronic information system for the Swiss federal budget.",
+    "locales": {
+      "de": "Deutsch",
+      "fr": "Français",
+      "it": "Italiano",
+      "en": "English"
+    }
+  },
+  "states": {
+    "home": {
+      "title": "Start",
+      "description": "Description for the Home state page."
+    },
+    "charts": {
+      "title": "Charts",
+      "subtitle": "Charts",
+      "description": "Die Gliederung der Einnahmen nach ihrer Art wird grundsätzlich in der sogenannten Erfolgssicht gezeigt. Die Einnahmen werden in dieser Sicht definitionsgemäss Erträgegenannt.",
+      "noData": "Bitte wählen Sie aus dem Baum links Werte mit diesem Symbol <span class=\"fa fa-area-chart\"></span>, um Sie in der Grafik anzuzeigen",
+      "tree": {
+        "addSerie": "[FR] Add serie",
+        "removeSerie": "[FR] Remove serie"
+      },
+      "selection": {
+        "title": "Ausgewählte Werte",
+        "share": "[FR] Share",
+        "shareTitle": "Bitte Werte wählen, die geteilt werden sollen"
+      },
+      "legend": {
+        "visibility": "[FR] Toggle visibility",
+        "remove": "[FR] Remove"
+      },
+      "chart": {
+        "timeRange": "Zeitraum",
+        "representation": "Darstellung",
+        "lines": "[FR] Lines",
+        "bars": "[FR] Bars"
+      }
+    },
+    "generalBudget": {
+      "title": "Gesamthaushalt",
+      "subtitle": "Auswahl nach Gesamthaushalt",
+      "description": "Die Gliederung der Einnahmen nach ihrer Art wird grundsätzlich in der sogenannten Erfolgssicht gezeigt. Die Einnahmen werden in dieser Sicht definitionsgemäss Erträgegenannt.",
+      "institution": { "title": "Gesamthaushalt nach Institution" },
+      "type": { "title": "Gesamthaushalt nach Art" },
+      "responsabilities": { "title": "Gesamthaushalt nach Aufgabengebiet" }
+    },
+    "revenue": {
+      "title": "Einnahmen",
+      "subtitle": "Auswahl nach Einnahmen",
+      "description": "Die Gliederung der Einnahmen nach ihrer Art wird grundsätzlich in der sogenannten Erfolgssicht gezeigt. Die Einnahmen werden in dieser Sicht definitionsgemäss Erträgegenannt.",
+      "institution": { "title": "Einnahmen nach Institution" },
+      "type": { "title": "Einnahmen nach Art" },
+      "responsabilities": { "title": "Einnahmen nach Aufgabengebiet" }
+    },
+    "expenses": {
+      "title": "Ausgaben",
+      "subtitle": "Auswahl nach Ausgaben",
+      "description": "Die Gliederung der Einnahmen nach ihrer Art wird grundsätzlich in der sogenannten Erfolgssicht gezeigt. Die Einnahmen werden in dieser Sicht definitionsgemäss Erträgegenannt.",
+      "institution": { "title": "Ausgaben nach Institution" },
+      "type": { "title": "Ausgaben nach Art" },
+      "responsabilities": { "title": "Ausgaben nach Aufgabengebiet" }
+    },
+    "institutions": {
+      "title": "Institutionen",
+      "subtitle": "Auswahl nach Institutionen",
+      "description": "Die Gliederung der Einnahmen nach ihrer Art wird grundsätzlich in der sogenannten Erfolgssicht gezeigt. Die Einnahmen werden in dieser Sicht definitionsgemäss Erträgegenannt.",
+      "departements": { "title": "Institutionen nach Institution" },
+      "administrativeUnits": { "title": "Institutionen nach Art" }
+    },
+    "test": {
+      "title": "Test",
+      "json": { "title": "Test" }
+    },
+    "common": {
+      "depends": {
+        "institution": "nach Institution",
+        "type": "nach Art",
+        "responsabilities": "nach Aufgabengebiet",
+        "departements": "nach Departementen",
+        "administrativeUnits": "nach Verwaltungseinheiten"
+      }
+    }
+  },
+  "common": {
+    "yes": "Ja",
+    "no": "Nein",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "copy": "[FR] Copy",
+    "sendEmail": "E-Mail schicken",
+    "select": "Wählen bitte.",
+    "actions": "Aktionen",
+    "action": "Aktion",
+    "collapseExpandAll": "Alle aus-/abwählen",
+    "collapseAll": "Alles auf",
+    "expandAll": "Alles zu",
+    "next": "Nächsten",
+    "previous": "Vorherige",
+    "of": "von",
+    "search": {
+      "search": "[FR] Search",
+      "placeholder": "Suche nach Begriff",
+      "noResults": "[FR] No results..."
+    },
+    "pager": {
+      "pagesLengthBefore": "Anzeige von",
+      "pagesLengthAfter": "Treffen pro Seite",
+      "page": "Seite",
+      "of": "von",
+      "hits": "Suchtreffen"
+    },
+    "date": {
+      "format": {
+        "dd.MM.yyyy": "TT.MM.JJJJ",
+        "invalid": "Incorrect date or format, please enter a valid date in the dd.mm.yyyy format."
+      },
+      "min.invalid": "Das Datum unterschreitet das min. zulässige Datum {{p0}}",
+      "max.invalid": "Das Datum überschreitet das max. zulässige Datum {{p0}}"
+    }
+  },
+  "labels": {
+    "language": "Sprache",
+    "email": "Email",
+    "password": "Passwort"
+  },
+  "error": {
+    "general": "Es ist ein Fehler aufgetreten. Versuchen Sie es später nocheinmal oder kontaktieren Sie den Support",
+    "http": {
+      "status": {
+        "0": "Service Unavailable",
+        "400": "Bad Request",
+        "404": "The requested resource could not be found",
+        "500": "Internal Server Error",
+        "501": "Not Implemented",
+        "502": "Bad Gateway",
+        "503": "Service Unavailable"
+      }
+    },
+    "other": {
+      "timeout": "Server hat nicht zu lange reagiert. Versuchen Sie es später nocheinmal oder kontaktieren Sie den Support",
+      "upload": "Es ist ein Fehler bei hochladen aufgetrten. Versuchen Sie es später nocheinmal oder kontaktieren Sie den Support"
+    },
+    "business": {
+      "ObjectOptimisticLockingFailureException": "Daten können nicht gespeichert werden, da sie auf dem Server geändert werden. Form wurde mit aktuellen Daten neu geladen."
+    }
+  },
+  "notification": {
+    "type": {
+      "default": "",
+      "info": "Info",
+      "success": "Erfolgreich",
+      "warning": "Warnung",
+      "error": "Fehler"
+    },
+    "common": {
+      "form": {
+        "success": "Speichern erfolgreich",
+        "pristine": "Ihre Eingaben haben sich nicht geändert",
+        "invalid": "Bitte korrigieren Sie die Fehler im Formular"
+      }
+    },
+    "custom": {
+    }
+  },
+  "dialog": {
+    "doAction": {
+      "header": "Aktion zu bestätigen",
+      "message": "Wollen Sie wirklich diese Aktion durchführen"
+    },
+    "doDelete": {
+      "header": "Löschvorgang zu bestätigen",
+      "message": "Wollen Sie wirklich diesen Datensatz löschen"
+    },
+    "doDeleteFile": {
+      "header": "Löschvorgang zu bestätigen",
+      "message": "Wollen Sie wirklich diese Datei löschen"
+    },
+    "action": {
+      "yes": "Ja",
+      "no": "Nein"
+    }
+  },
+  "validation": {
+    "basic": {
+      "required": "Pflichtfeld, bitte machen Sie eine Angabe",
+      "email": "Ungültiges Format, bitte geben Sie eine gültige E-Mail Adresse an",
+      "url": "Ungültige Format, bitte geben Sie eine gültige URL Adresse an",
+      "minlength": "Bitte geben Sie mindestens {{limit}} Zeichen ein (Sie haben nur {{actual}} Zeichen eingegeben)",
+      "maxlength": "Bitte geben Sie höchstens {{limit}} Zeichen ein (Sie haben nur {{actual}} Zeichen eingegeben)",
+      "min": "Bitte geben Sie eine Zahl grösser oder gleich {{limit}} ein",
+      "max": "Bitte geben Sie eine Zahl kleiner oder gleich {{limit}} ein",
+      "integer": "Ungültiges Format, bitte geben Sie eine Zahl ohne Dezimalstellen ein",
+      "float": "Ungültiges Format, bitte geben Sie eine Zahl mit Dezimalstellen ein",
+      "date": "Ungültiges Format, bitte geben Sie eine korrekte Datum"
+    },
+    "custom": {
+      "date": {
+        "day": {
+          "min": "Ungültiger Tag, geben Sie eine Zahl zwischen 1 und 31 ein",
+          "max": "Ungültiger Tag, geben Sie eine Zahl zwischen 1 und 31 ein"
+        },
+        "month": {
+          "min": "Ungültiger Monat, geben Sie eine Zahl zwischen 1 und 12 ein",
+          "max": "Ungültiger Monat, geben Sie eine Zahl zwischen 1 und 12 ein"
         }
-	},
-	"common": {
-		"yes": "Yes",
-		"no": "No",
-		"save": "Save",
-		"cancel": "Cancel",
-		"delete": "Delete",
-		"actions": "Actions",
-		"action": "Action",
-		"pager": {
-			"pagesLengthBefore": "Displaying",
-			"pagesLengthAfter": "Results per page",
-			"page": "Page",
-			"of": "from",
-			"hits": "Hits"
-		}
-	},
-	"labels": {
-		"email": "Email",
-		"password": "Mot de passe"
-	},
-	"error": {
-		"general": "Es ist ein Fehler aufgetreten. Versuchen Sie es später nocheinmal oder kontaktieren Sie den Support",
-		"http": {
-			"status": {
-				"0": "Service temporairement indisponible ou en maintenance",
-				"400": "La syntaxe de la requête est erronée",
-				"404": "Ressource non trouvée",
-				"500": "Erreur interne du serveur",
-				"501": "Fonctionnalité réclamée non supportée par le serveur",
-				"502": "Mauvaise réponse envoyée à un serveur intermédiaire par un autre serveur.",
-				"503": "Service temporairement indisponible ou en maintenance"
-			}
-		},
-		"other": {
-			"timeout": "Server hat nicht zu lange reagiert. Versuchen Sie es später nocheinmal oder kontaktieren Sie den Support",
-			"upload": "Es ist ein Fehler bei hochladen aufgetrten. Versuchen Sie es später nocheinmal oder kontaktieren Sie den Support"
-		},
-		"business": {
-			"ObjectOptimisticLockingFailureException": "Daten können nicht gespeichert werden, da sie auf dem Server geändert werden. Form wurde mit aktuellen Daten neu geladen."
-		}
-	},
-	"notification": {
-		"type": {
-			"default": "",
-			"info": "Info",
-			"success": "Success",
-			"warning": "Warning",
-			"error": "Error"
-		},
-		"common": {
-			"form": {
-				"success": "Speichern erfolgreich",
-				"pristine": "Ihre Eingaben haben sich nicht geändert",
-				"invalid": "Bitte korrigieren Sie die Fehler im Formular"
-			}
-		},
-		"custom": {
-		}
-	},
-	"dialog": {
-		"doAction": {
-			"header": "Aktion zu bestätigen",
-			"message": "Wollen Sie wirklich diese Aktion durchführen"
-		},
-		"doDelete": {
-			"header": "Löschvorgang zu bestätigen",
-			"message": "Wollen Sie wirklich diesen Datensatz löschen"
-		},
-		"doDeleteFile": {
-			"header": "Löschvorgang zu bestätigen",
-			"message": "Wollen Sie wirklich diese Datei löschen"
-		},
-		"action": {
-			"yes": "Yes",
-			"no": "No"
-		}
-	},
-	"validation": {
-		"basic": {
-			"required": "Pflichtfeld, bitte machen Sie eine Angabe",
-			"email": "Ungültiges Format, bitte geben Sie eine gültige E-Mail Adresse an",
-			"url": "Ungültige Format, bitte geben Sie eine gültige URL Adresse an",
-			"minlength": "Bitte geben Sie mindestens {{limit}} Zeichen ein (Sie haben nur {{actual}} Zeichen eingegeben)",
-			"maxlength": "Bitte geben Sie höchstens {{limit}} Zeichen ein (Sie haben nur {{actual}} Zeichen eingegeben)",
-			"min": "Bitte geben Sie eine Zahl grösser oder gleich {{limit}} ein",
-			"max": "Bitte geben Sie eine Zahl kleiner oder gleich {{limit}} ein",
-			"integer": "Ungültiges Format, bitte geben Sie eine Zahl ohne Dezimalstellen ein",
-			"float": "Ungültiges Format, bitte geben Sie eine Zahl mit Dezimalstellen ein",
-			"date": "Ungültiges Format, bitte geben Sie eine korrekte Datum"
-		},
-		"custom": {
-			"date": {
-				"day": {
-					"min": "Ungültiger Tag, geben Sie eine Zahl zwischen 1 und 31 ein",
-					"max": "Ungültiger Tag, geben Sie eine Zahl zwischen 1 und 31 ein"
-				},
-				"month": {
-					"min": "Ungültiger Monat, geben Sie eine Zahl zwischen 1 und 12 ein",
-					"max": "Ungültiger Monat, geben Sie eine Zahl zwischen 1 und 12 ein"
-				}
-			}
-		}
-	},
-	"form": {
-		"action": {
-			"add": "Ajouter",
-			"apply": "Appliquer",
-			"applyAndContinue": "Appliquer & continuer",
-			"save": "Sauvegarder",
-			"delete": "Supprimer",
-			"cancel": "Annuler",
-			"next": "Suivant",
-			"back": "Retour"
-		}
-	}
+      }
+    }
+  },
+  "form": {
+    "action": {
+      "add": "Hinzufügen",
+      "apply": "Übernehmen",
+      "applyAndContinue": "Übernehmen und weiteren erfassen",
+      "save": "Speichern",
+      "delete": "Löschen",
+      "cancel": "Abbrechen",
+      "next": "Weiter",
+      "back": "Zurück"
+    }
+  },
+  "multiselect": {
+    "checkAll": "Alle auswählen",
+    "uncheckAll": "Alle abwählen",
+    "buttonDefaultText": "Wählen bitte.",
+    "allSelected": "Alle Elemente selektiert"
+  }
 }

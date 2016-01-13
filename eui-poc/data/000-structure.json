@@ -1,0 +1,880 @@
+{
+  "id": "000",
+  "range": {
+    "from": 1950,
+    "to": 2020
+  },
+  "structure": {
+    "id": "000000",
+    "label": "Label",
+    "children": [
+      {
+        "id": "568fa947ed94e17afa639e82",
+        "label": "Bishop",
+        "children": [
+          {
+            "id": "568fa9471389049ef71f0144",
+            "label": "Miles",
+            "children": [
+              {
+                "id": "568fa947ac23f7426fa7ddd5",
+                "label": "Holland",
+                "children": [
+                  {
+                    "id": "568fa947ab4ab98059a1f227",
+                    "label": "Nolan"
+                  },
+                  {
+                    "id": "568fa9473946d3cde4f7df85",
+                    "label": "Rose"
+                  },
+                  {
+                    "id": "568fa947a4a81c01c9034d91",
+                    "label": "Anthony"
+                  },
+                  {
+                    "id": "568fa9475fcffb7f02691793",
+                    "label": "Cote"
+                  },
+                  {
+                    "id": "568fa947456e5e074f487cc3",
+                    "label": "Hernandez"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "568fa94709284c66a9f0a103",
+        "label": "Weeks",
+        "children": [
+          {
+            "id": "568fa9478125cfd1128c1529",
+            "label": "Alexander",
+            "children": [
+              {
+                "id": "568fa94763e5a97347528dc9",
+                "label": "Ortega",
+                "children": [
+                  {
+                    "id": "568fa947bedea7f5547fcd9b",
+                    "label": "Lang"
+                  },
+                  {
+                    "id": "568fa9475a1cc8a4a7216cf1",
+                    "label": "Bird"
+                  },
+                  {
+                    "id": "568fa9476915cfdfdfcb4ad9",
+                    "label": "Mcintosh"
+                  },
+                  {
+                    "id": "568fa9478501ec0a132ef8e9",
+                    "label": "Dunn"
+                  },
+                  {
+                    "id": "568fa947e22f4d5d16a74a97",
+                    "label": "Sweeney"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "568fa94761cc1acbfeec7e2d",
+            "label": "Jordan",
+            "children": [
+              {
+                "id": "568fa947c6132c4c4e307000",
+                "label": "Johnston",
+                "children": [
+                  {
+                    "id": "568fa947b922e22284875284",
+                    "label": "Barnett"
+                  },
+                  {
+                    "id": "568fa9470c067bfecf8c7cb6",
+                    "label": "Rivera"
+                  },
+                  {
+                    "id": "568fa947f51b8ba877ebb6d7",
+                    "label": "Cortez"
+                  }
+                ]
+              },
+              {
+                "id": "568fa947721979590031fcd2",
+                "label": "Orr",
+                "children": [
+                  {
+                    "id": "568fa9473a5fa225f80394eb",
+                    "label": "Dunlap"
+                  },
+                  {
+                    "id": "568fa947c99d850b569c2ac8",
+                    "label": "Lopez"
+                  },
+                  {
+                    "id": "568fa947708b0576ab78eed0",
+                    "label": "Solomon"
+                  },
+                  {
+                    "id": "568fa947aa335010a0cbff4d",
+                    "label": "Horn"
+                  },
+                  {
+                    "id": "568fa947ed25cc9814c441dd",
+                    "label": "Hays"
+                  }
+                ]
+              },
+              {
+                "id": "568fa947b530adc74f49c558",
+                "label": "Holder",
+                "children": [
+                  {
+                    "id": "568fa94729a3e1aa25521eef",
+                    "label": "Woods"
+                  }
+                ]
+              },
+              {
+                "id": "568fa947a0228b84e1167af9",
+                "label": "Owen",
+                "children": [
+                  {
+                    "id": "568fa947d18d919c79b9a52f",
+                    "label": "Kirkland"
+                  },
+                  {
+                    "id": "568fa947ed9d51a895772531",
+                    "label": "Hickman"
+                  },
+                  {
+                    "id": "568fa94780de9bfb6b3acd79",
+                    "label": "Guzman"
+                  }
+                ]
+              },
+              {
+                "id": "568fa94727c30f31e131d2a9",
+                "label": "Grant",
+                "children": [
+                  {
+                    "id": "568fa947760eceb0d0f022cc",
+                    "label": "Mason"
+                  },
+                  {
+                    "id": "568fa94776528ee6982f3cda",
+                    "label": "Dorsey"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "568fa94771bda28ec2d848cf",
+            "label": "Farrell",
+            "children": [
+              {
+                "id": "568fa9471781aeb839a223f5",
+                "label": "Brady",
+                "children": [
+                  {
+                    "id": "568fa947444c41adfcc9a508",
+                    "label": "Ayers"
+                  },
+                  {
+                    "id": "568fa947b7881eb847ee4741",
+                    "label": "House"
+                  },
+                  {
+                    "id": "568fa9472813ac451c47857c",
+                    "label": "Dillon"
+                  },
+                  {
+                    "id": "568fa9474589ddbe2bc2dfb5",
+                    "label": "Schmidt"
+                  }
+                ]
+              },
+              {
+                "id": "568fa947fe8551f959668e79",
+                "label": "Hardin",
+                "children": [
+                  {
+                    "id": "568fa9474e81c5233076c286",
+                    "label": "Riggs"
+                  },
+                  {
+                    "id": "568fa947650bc179400de9fc",
+                    "label": "Colon"
+                  },
+                  {
+                    "id": "568fa947f9237a8cf23157ad",
+                    "label": "Clayton"
+                  },
+                  {
+                    "id": "568fa947198cbfea051143ba",
+                    "label": "David"
+                  },
+                  {
+                    "id": "568fa9475ecf1339a94959c1",
+                    "label": "Foster"
+                  }
+                ]
+              },
+              {
+                "id": "568fa94767fd0dbd7057dfe9",
+                "label": "Emerson",
+                "children": []
+              },
+              {
+                "id": "568fa9470bce94c45241750b",
+                "label": "Boyle",
+                "children": [
+                  {
+                    "id": "568fa947460c987b9e13ae07",
+                    "label": "Bryan"
+                  }
+                ]
+              },
+              {
+                "id": "568fa9472c673e3c4292a165",
+                "label": "Cabrera",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "568fa947038067c70300d53d",
+            "label": "Ortiz",
+            "children": [
+              {
+                "id": "568fa947a8778420651959ef",
+                "label": "Stevenson",
+                "children": [
+                  {
+                    "id": "568fa947f3e252ba78a386f8",
+                    "label": "Cameron"
+                  }
+                ]
+              },
+              {
+                "id": "568fa947ce2ad05c302f1874",
+                "label": "Francis",
+                "children": [
+                  {
+                    "id": "568fa9477d3fd164f7e00579",
+                    "label": "Steele"
+                  },
+                  {
+                    "id": "568fa9471a88ff8a8a77d8d6",
+                    "label": "Frederick"
+                  },
+                  {
+                    "id": "568fa94766a40d4fc0731b14",
+                    "label": "Walters"
+                  },
+                  {
+                    "id": "568fa947c998bb47471221c4",
+                    "label": "Mcbride"
+                  }
+                ]
+              },
+              {
+                "id": "568fa9479cdcc832da1590a9",
+                "label": "Rich",
+                "children": []
+              },
+              {
+                "id": "568fa94751a5396f9424a353",
+                "label": "Stein",
+                "children": [
+                  {
+                    "id": "568fa947bd88999b1bf820ad",
+                    "label": "Henson"
+                  },
+                  {
+                    "id": "568fa947cafb55746924c57d",
+                    "label": "Arnold"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "568fa947b26f7454175e15b3",
+            "label": "Oneil",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "568fa947dc42da31afddbdb3",
+        "label": "Huffman",
+        "children": [
+          {
+            "id": "568fa9477ccdd949b056615b",
+            "label": "Clark",
+            "children": [
+              {
+                "id": "568fa947d71b21e53a51d676",
+                "label": "Phillips",
+                "children": [
+                  {
+                    "id": "568fa9475c00ce3c25f15698",
+                    "label": "Banks"
+                  }
+                ]
+              },
+              {
+                "id": "568fa94715a720a2bd751cfe",
+                "label": "Horton",
+                "children": [
+                  {
+                    "id": "568fa94730bd8b7afc105328",
+                    "label": "Rodriguez"
+                  },
+                  {
+                    "id": "568fa947cefeac201e12cc27",
+                    "label": "Copeland"
+                  },
+                  {
+                    "id": "568fa94791666c210448f58f",
+                    "label": "Pate"
+                  },
+                  {
+                    "id": "568fa9473ae79e6d67c43019",
+                    "label": "Kline"
+                  },
+                  {
+                    "id": "568fa9476fcd3d9ea3cb4416",
+                    "label": "Bradley"
+                  }
+                ]
+              },
+              {
+                "id": "568fa947b0463d0717f20898",
+                "label": "Craft",
+                "children": [
+                  {
+                    "id": "568fa947115d067721a6e465",
+                    "label": "Coffey"
+                  },
+                  {
+                    "id": "568fa947aae78f4e550d7a1a",
+                    "label": "Benton"
+                  }
+                ]
+              },
+              {
+                "id": "568fa947fd0cad29489eefcc",
+                "label": "Peters",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "568fa9479c7c85d68f477902",
+            "label": "Townsend",
+            "children": [
+              {
+                "id": "568fa9471c27f639ae6c1892",
+                "label": "Wooten",
+                "children": [
+                  {
+                    "id": "568fa947054180e06b18ef88",
+                    "label": "Estes"
+                  },
+                  {
+                    "id": "568fa9471afd3fb8b6924f2c",
+                    "label": "Combs"
+                  },
+                  {
+                    "id": "568fa947e110ddcfc68d36b7",
+                    "label": "Hayden"
+                  },
+                  {
+                    "id": "568fa947fba7575f6ecd1706",
+                    "label": "Cross"
+                  },
+                  {
+                    "id": "568fa9478476417c5c9fc541",
+                    "label": "Hawkins"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "568fa947a0fa4f51c906995f",
+            "label": "Maynard",
+            "children": [
+              {
+                "id": "568fa947509ff0f11ae974b4",
+                "label": "Olsen",
+                "children": [
+                  {
+                    "id": "568fa947c873196ac44bcad9",
+                    "label": "Solis"
+                  },
+                  {
+                    "id": "568fa9473b1a7b05ce380fdf",
+                    "label": "Roach"
+                  }
+                ]
+              },
+              {
+                "id": "568fa947e685be0d12f2c593",
+                "label": "Miranda",
+                "children": [
+                  {
+                    "id": "568fa947eaa2cfce60c351fe",
+                    "label": "Fletcher"
+                  },
+                  {
+                    "id": "568fa947959faa178bbbfdcb",
+                    "label": "Mcconnell"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "568fa9475eccf4fdd47b61b6",
+        "label": "Franco",
+        "children": [
+          {
+            "id": "568fa94711602409a7e4b91e",
+            "label": "Macias",
+            "children": [
+              {
+                "id": "568fa9471c4a3ecba93365e3",
+                "label": "Faulkner",
+                "children": []
+              },
+              {
+                "id": "568fa9475fd03e44e2b57a84",
+                "label": "Blackwell",
+                "children": [
+                  {
+                    "id": "568fa9470ebae7e5e5313b6a",
+                    "label": "Callahan"
+                  },
+                  {
+                    "id": "568fa947a951bdc68bce8623",
+                    "label": "Bartlett"
+                  },
+                  {
+                    "id": "568fa947f9db97ff8e4f3a60",
+                    "label": "Mooney"
+                  },
+                  {
+                    "id": "568fa9479415578b1daadad0",
+                    "label": "Underwood"
+                  },
+                  {
+                    "id": "568fa94799467da167158475",
+                    "label": "Joyce"
+                  }
+                ]
+              },
+              {
+                "id": "568fa9476a6709d516b00df7",
+                "label": "Richards",
+                "children": [
+                  {
+                    "id": "568fa94775ec437b043247d2",
+                    "label": "Williamson"
+                  },
+                  {
+                    "id": "568fa94736a6394d99f0feb6",
+                    "label": "Russo"
+                  },
+                  {
+                    "id": "568fa947ec9659b5e78dd3b7",
+                    "label": "Drake"
+                  },
+                  {
+                    "id": "568fa9472a77440a5684ec69",
+                    "label": "Mccormick"
+                  }
+                ]
+              },
+              {
+                "id": "568fa947437a1dcbf73e7ece",
+                "label": "Hahn",
+                "children": [
+                  {
+                    "id": "568fa9478609a2d205d50497",
+                    "label": "Kirby"
+                  },
+                  {
+                    "id": "568fa9477907ce726b814723",
+                    "label": "Mccray"
+                  },
+                  {
+                    "id": "568fa9477e8d46a46e7a686e",
+                    "label": "Pace"
+                  },
+                  {
+                    "id": "568fa947b22fce5315691a56",
+                    "label": "Fitzgerald"
+                  }
+                ]
+              },
+              {
+                "id": "568fa947a5fbc6710c335bea",
+                "label": "Lloyd",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "568fa947e1b0426057b508f6",
+            "label": "Garrett",
+            "children": [
+              {
+                "id": "568fa9476800efb851afbe67",
+                "label": "Briggs",
+                "children": []
+              },
+              {
+                "id": "568fa9479aa9d6655d9737ef",
+                "label": "Wilkerson",
+                "children": [
+                  {
+                    "id": "568fa9472e75867ddc2525f5",
+                    "label": "Rush"
+                  },
+                  {
+                    "id": "568fa9475d20b5c04a41bb0d",
+                    "label": "Stone"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "568fa947672efc6695af804a",
+            "label": "Austin",
+            "children": [
+              {
+                "id": "568fa9477a05a048794d4d18",
+                "label": "Dixon",
+                "children": [
+                  {
+                    "id": "568fa94712c073727add6697",
+                    "label": "Decker"
+                  },
+                  {
+                    "id": "568fa947b50c5fba187c4057",
+                    "label": "Cash"
+                  }
+                ]
+              },
+              {
+                "id": "568fa94779de4f071a0cafed",
+                "label": "Knowles",
+                "children": [
+                  {
+                    "id": "568fa947467ce3457bb28b92",
+                    "label": "Ewing"
+                  },
+                  {
+                    "id": "568fa947bbe18c8ad2cf06b7",
+                    "label": "Cervantes"
+                  },
+                  {
+                    "id": "568fa9475496a8ad86d3f5f7",
+                    "label": "Contreras"
+                  },
+                  {
+                    "id": "568fa9477fbe310731972686",
+                    "label": "Bradford"
+                  },
+                  {
+                    "id": "568fa947e40e63de054d2033",
+                    "label": "Ramsey"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "568fa947472e17139d6a608f",
+            "label": "King",
+            "children": [
+              {
+                "id": "568fa947f787921be367620c",
+                "label": "Barker",
+                "children": []
+              },
+              {
+                "id": "568fa947dd539f8009522c5e",
+                "label": "Fry",
+                "children": [
+                  {
+                    "id": "568fa947ec3fd7d360a675c0",
+                    "label": "Wise"
+                  }
+                ]
+              },
+              {
+                "id": "568fa947c07e7fcbde96c060",
+                "label": "Miller",
+                "children": [
+                  {
+                    "id": "568fa947c22b0d6a43ff4d7f",
+                    "label": "Mcgowan"
+                  },
+                  {
+                    "id": "568fa947d834a0a4833c1349",
+                    "label": "Galloway"
+                  },
+                  {
+                    "id": "568fa947c46bcb2390eb5ecc",
+                    "label": "Hopper"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "568fa947d9d0cc13a3a29e34",
+            "label": "Short",
+            "children": [
+              {
+                "id": "568fa9476a0fc49149487413",
+                "label": "Griffith",
+                "children": [
+                  {
+                    "id": "568fa9474664206ebabe172f",
+                    "label": "Bates"
+                  },
+                  {
+                    "id": "568fa947f5d6ef18c5344a63",
+                    "label": "Watkins"
+                  },
+                  {
+                    "id": "568fa947e54952cc705e7ceb",
+                    "label": "Wallace"
+                  },
+                  {
+                    "id": "568fa94786535933a1adda79",
+                    "label": "Curry"
+                  }
+                ]
+              },
+              {
+                "id": "568fa947644397c2041322e1",
+                "label": "Wilkins",
+                "children": [
+                  {
+                    "id": "568fa947b87e5b4ddf68e408",
+                    "label": "Suarez"
+                  },
+                  {
+                    "id": "568fa9472e2a4523d03cf534",
+                    "label": "Holloway"
+                  },
+                  {
+                    "id": "568fa947c879246ca96c1e23",
+                    "label": "Brennan"
+                  }
+                ]
+              },
+              {
+                "id": "568fa9473e422af1358de60e",
+                "label": "Crane",
+                "children": [
+                  {
+                    "id": "568fa9476f2c2ff70aa8519a",
+                    "label": "Barlow"
+                  },
+                  {
+                    "id": "568fa94763ce2b6d74961a7b",
+                    "label": "Knapp"
+                  },
+                  {
+                    "id": "568fa947caebf5e7aa7a383c",
+                    "label": "Love"
+                  },
+                  {
+                    "id": "568fa9471b7562ace19af7f3",
+                    "label": "Figueroa"
+                  }
+                ]
+              },
+              {
+                "id": "568fa9476c1f01aba03684b6",
+                "label": "Gentry",
+                "children": [
+                  {
+                    "id": "568fa947e0fe5e4702683853",
+                    "label": "Carroll"
+                  },
+                  {
+                    "id": "568fa9479b25c48b116c35cc",
+                    "label": "Weaver"
+                  },
+                  {
+                    "id": "568fa947f395eb5b8e5aeef0",
+                    "label": "Cleveland"
+                  }
+                ]
+              },
+              {
+                "id": "568fa947ac0f66dbd43764ed",
+                "label": "Hinton",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "568fa947db7a7094d99c34c6",
+        "label": "Hodge",
+        "children": [
+          {
+            "id": "568fa94768d9f4f20470d9ab",
+            "label": "Carter",
+            "children": [
+              {
+                "id": "568fa947249e662ba95b2ca8",
+                "label": "Dodson",
+                "children": []
+              },
+              {
+                "id": "568fa947775e07209270e8b3",
+                "label": "Garcia",
+                "children": []
+              },
+              {
+                "id": "568fa947e062b96556b1afb9",
+                "label": "Browning",
+                "children": [
+                  {
+                    "id": "568fa947237f443c667a7fd9",
+                    "label": "Gallegos"
+                  },
+                  {
+                    "id": "568fa947645eda58a347d57f",
+                    "label": "Whitfield"
+                  },
+                  {
+                    "id": "568fa947945c31171fc14c31",
+                    "label": "Sykes"
+                  },
+                  {
+                    "id": "568fa947a51877d2ae23b769",
+                    "label": "Morris"
+                  },
+                  {
+                    "id": "568fa9476f5b18b79da09a33",
+                    "label": "Blevins"
+                  }
+                ]
+              },
+              {
+                "id": "568fa9470d0ca3b103f7f778",
+                "label": "Gilbert",
+                "children": [
+                  {
+                    "id": "568fa9474a37de4d2647b062",
+                    "label": "Hendricks"
+                  },
+                  {
+                    "id": "568fa94705aadb3b7cd37480",
+                    "label": "Shields"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "568fa9479e9c4055ff46eab6",
+            "label": "Collier",
+            "children": [
+              {
+                "id": "568fa9475400154a7f963893",
+                "label": "Hood",
+                "children": [
+                  {
+                    "id": "568fa947ae972f4d16396a3e",
+                    "label": "Newman"
+                  },
+                  {
+                    "id": "568fa947c0b7a9f7e5d2a2b6",
+                    "label": "Powell"
+                  }
+                ]
+              },
+              {
+                "id": "568fa9476803865071f41be0",
+                "label": "Hill",
+                "children": [
+                  {
+                    "id": "568fa94756f0bc55d9369806",
+                    "label": "Conner"
+                  },
+                  {
+                    "id": "568fa9476d6f884c0ad95e33",
+                    "label": "Sargent"
+                  },
+                  {
+                    "id": "568fa94788c1b954a6353eb6",
+                    "label": "Wilson"
+                  }
+                ]
+              },
+              {
+                "id": "568fa947ac2a1ae85cc2bb6d",
+                "label": "Andrews",
+                "children": []
+              },
+              {
+                "id": "568fa947c591bbdb671acdb4",
+                "label": "Doyle",
+                "children": [
+                  {
+                    "id": "568fa94721921f48620a8049",
+                    "label": "Ward"
+                  },
+                  {
+                    "id": "568fa9473feb056af6b2e8eb",
+                    "label": "Ratliff"
+                  },
+                  {
+                    "id": "568fa947c7d3339bf252c881",
+                    "label": "Rosa"
+                  }
+                ]
+              },
+              {
+                "id": "568fa9470aff807719a2eab5",
+                "label": "Gomez",
+                "children": [
+                  {
+                    "id": "568fa947923fef3c0c36d07b",
+                    "label": "Savage"
+                  },
+                  {
+                    "id": "568fa947cd59c2373066238c",
+                    "label": "Pennington"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
