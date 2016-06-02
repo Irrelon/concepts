@@ -26,7 +26,6 @@ app.forerunner= (function(self){
       $.getJSON("data/objects1000.json", function(data) {
         console.timeEnd("Reading json data");
         db.collection('budget').insert(data);
-        db.collection('budget').save();
         console.timeEnd("Importing data on the database");
       });
     };
@@ -57,7 +56,6 @@ app.forerunner= (function(self){
                 ]
             }
           ]);
-          db.collection('budget').save();
       }
     }
     
