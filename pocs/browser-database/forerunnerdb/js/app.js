@@ -30,10 +30,28 @@ app.forerunner= (function(self){
       });
     };
     
-    self.displayItemsList = function(){
+    /*self.displayItemsList = function(){
       collection = db.collection('budget');
       console.timeEnd("Reading data on database");
       collection.link('#display', '#itemTemplate');
+      console.timeEnd("Reading and display data");
+    };*/
+    
+    self.displayItemsList = function(){
+        var data = db.collection('budget').find();
+        console.timeEnd("Reading data on database");
+        
+      data.forEach(function(item) {
+        var node = document.createElement("li");
+        var accountInfo = item.year;
+        item.accounts.forEach(function(account){
+          accountInfo += " " + account.name +" "+ account.value;
+        });
+        
+        node.appendChild(document.createTextNode(accountInfo));
+        document.getElementById('items').appendChild(node);
+      });
+      
       console.timeEnd("Reading and display data");
     };
     
