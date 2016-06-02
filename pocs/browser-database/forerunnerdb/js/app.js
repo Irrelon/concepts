@@ -38,7 +38,7 @@ app.forerunner= (function(self){
     };*/
     
     self.displayItemsList = function(){
-        var data = db.collection('budget').find();
+        var data = db.collection('budget')._data;
         console.timeEnd("Reading data on database");
         
       data.forEach(function(item) {
